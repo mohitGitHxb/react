@@ -1,0 +1,13 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: sans-serif;
+  /* background-color: rgb(58, 45, 45); */
+  background-image: -moz-linear-gradient(rgb(77, 66, 66) 60%,rgb(62, 48, 48));
+}
+
+body {
+  margin: 0;
+}

@@ -1,0 +1,24 @@
+import React, { useState } from 'react'
+import './App.css'
+import NavBar from './components/NavBar'  
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+import Skills from './components/Skills';
+import  Projects  from './components/Projects';
+import Contact from './components/Contact';
+import Footer from './components/Footer';
+
+function App() {
+return(
+      <React.Fragment>
+            <NavBar/>
+            <Skills/>
+            <Projects/>
+            <Contact/>
+            <Footer/>
+      </React.Fragment>
+); 
+
+}
+
+export default App
