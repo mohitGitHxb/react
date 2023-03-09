@@ -1,15 +1,18 @@
 import './App.css'
-import Navbar from './components/Navbar';
-import Footer from './components/Footer';
-import Home from './components/Home';
+import { BrowserRouter as Router, Routes,Route } from 'react-router-dom'
+import Homepage from './Pages/Homepage';
+import Batch2025 from './Pages/Batch2025';
+import Devs from './Pages/Devs';
 function App() {
 
   return (
-    <>
-  <Navbar/>
-  <Home/>
-  <Footer/>
-    </>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Homepage />} />
+        <Route path="/batch-2025" element={<Batch2025 />} />
+        <Route path="/devs" element={<Devs />} />
+      </Routes>
+    </Router>
   );
 }
 

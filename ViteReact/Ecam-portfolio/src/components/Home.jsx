@@ -1,9 +1,15 @@
-import React, { useState } from 'react'
+import React, { useContext, useEffect, useState } from 'react'
 import Dropdown from './Dropdown';
 import MainContents from './MainContents';
+import AuthContext from './store/store';
 
 
 const Home = () => {
+  const storeCtx = useContext(AuthContext);
+  const[showLinks,setShowLinks] = useState(false);
+  useEffect(()=>{
+    setShowLinks(storeCtx.isCourseSelected);
+  },[storeCtx.isCourseSelected])
   const [Animation, SetAnimation] = useState(true);
   const toggleAnimation = ()=>{
     SetAnimation(!Animation);
@@ -18,9 +24,11 @@ const Home = () => {
       <div className="flex justify-center">
         <Dropdown/>
       </div>
-      <div className="w-full flex justify-center">
+     { 
+     showLinks &&
+     <div className="w-full flex justify-center">
         <MainContents/>
-  </div>
+  </div>}
     </div>
 
     <div className="lg:max-w-lg lg:w-full mt-6 md:mt-0 md:w-1/2 w-4/6 rotate-center rounded">
