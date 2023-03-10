@@ -5,29 +5,26 @@ const Semesters = [
     items: [
       {
         subjectName: "Mathematics",
-        syllabusLink: "https://example.com/syllabus/maths",
-        driveLink: "https://example.com/drive/maths",
+        syllabusLink: "https://drive.google.com/file/d/18w3aOJhv91LKzWWxWeybkuvQadx8FccR/view?usp=share_link",
+        driveLink: "https://drive.google.com/drive/folders/1TY9sYhucKn_h4FrSBpVtG6zoBCdvb9zE?usp=share_link",
       },
       {
-        subjectName: "Computer Science",
-        syllabusLink: "https://example.com/syllabus/cs",
-        driveLink: "https://example.com/drive/cs",
+        subjectName: "EEE",
+        syllabusLink: "https://drive.google.com/file/d/1dzqPQaJpq3YKzs4hzpeb8SGSX2d04UEw/view?usp=share_link",
+        driveLink: "https://drive.google.com/drive/folders/1tcEjHO9W5al4IVSxvzKaDOSImTdXrrH-?usp=share_link",
       },
+,
       {
-        subjectName: "English",
-        syllabusLink: "https://example.com/syllabus/english",
-        driveLink: "https://example.com/drive/english",
+        subjectName: "BME",
+        syllabusLink:"https://drive.google.com/file/d/1eHODoW99MWorxGsVERCG9M3ocpJVtr1I/view?usp=share_link",
+        driveLink:"https://drive.google.com/file/d/1eHODoW99MWorxGsVERCG9M3ocpJVtr1I/view?usp=share_link",
       },
       {
         subjectName: "Chemistry",
-        syllabusLink: "https://example.com/syllabus/chemistry",
-        driveLink: "https://example.com/drive/chemistry",
+        syllabusLink: "https://drive.google.com/file/d/1XoNaPr4FOUzD7EcfGZA5Wakcxw2tRHaA/view?usp=share_link",
+        driveLink: "https://drive.google.com/drive/folders/1zzOzIXSz9HVM4-uYzKZw1_4XimDFXBgm?usp=share_link",
       },
-      {
-        subjectName: "Physics",
-        syllabusLink: "https://example.com/syllabus/physics",
-        driveLink: "https://example.com/drive/physics",
-      },
+
     ],
   },
   {
@@ -35,14 +32,19 @@ const Semesters = [
     Semester: "Semester-2",
     items: [
       {
-        subjectName: "Data Structures",
+        subjectName: "Computer Science",
+        syllabusLink: "https://drive.google.com/file/d/173-qY1jEk0rwZZywDTEypxwbxiq6qnns/view?usp=share_link",
+        driveLink:    "https://drive.google.com/drive/folders/16fT26lJxhBFryVlufzK9vLt-xX3hwBMP?usp=share_link",
+      },
+      {
+        subjectName: " DSA",
         syllabusLink: "https://example.com/syllabus/ds",
         driveLink: "https://example.com/drive/ds",
       },
       {
-        subjectName: "Operating Systems",
-        syllabusLink: "https://example.com/syllabus/os",
-        driveLink: "https://example.com/drive/os",
+        subjectName: "Physics",
+        syllabusLink: "https://drive.google.com/file/d/1MSvHIo2ZkXVsHhxr060ch6NC3dpsIKJd/view?usp=share_link",
+        driveLink:    "https://drive.google.com/drive/folders/1JPeqBJc-jlFw8p9k9blvlYg8--nLcbVD?usp=share_link",
       },
       {
         subjectName: "Statistics",

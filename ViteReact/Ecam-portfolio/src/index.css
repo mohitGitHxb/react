@@ -27,6 +27,15 @@ body{
     -webkit-backdrop-filter: blur(5.6px);
     border: 1px solid rgba(36, 0, 255, 0.33);
     }
+    .glassmorphism-03{
+        /* From https://css.glass */
+background: rgba(87, 255, 220, 0.17);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(8.2px);
+-webkit-backdrop-filter: blur(8.2px);
+border: 1px solid rgba(87, 255, 220, 0.85);
+    }
     .depth-effect{
         box-shadow: 0px 7px 18px 0px rgba(0, 0, 0, 0.82);
     }

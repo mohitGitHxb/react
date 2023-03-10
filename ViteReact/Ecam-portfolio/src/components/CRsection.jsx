@@ -6,12 +6,12 @@ const CRsection = () => {
         <h1 className="text-4xl focus-in-contract md:text-6xl font-semibold text-center mb-6">
           OUR OFFICIAL CRs
         </h1>
-        <div className="flex flex-wrap -mx-4 -mb-10 justify-center gap-1 sm:gap-4 text-center">
-          <div className="md:w-2/6 mb-10 slide-in-blurred-bottom px-4 depth-effect glassmorphism-01 py-3">
-            <div  className="rounded-lg slide-in-blurred-bottom  depth-effect h-64 overflow-hidden">
+        <div className="flex flex-wrap -mx-4 -mb-10 justify-center gap-1 sm:px-8 px-2 sm:gap-6 lg:gap-8 text-center">
+          <div className="md:w-2/5 w-full  mb-10 px-4 slide-in-blurred-bottom depth-effect max-h-[700px] glassmorphism-01 py-3 lg:pt-3">
+            <div  className="rounded-lg h-64 depth-effect  slide-in-blurred-bottom md:h-3/5 overflow-hidden">
               <img
                 alt="content"
-                className=" object-cover h-auto w-full "
+                className=" object-cover object-top h-full w-full"
                 src="./LordSanyam.jpeg"
               />
             </div>
@@ -19,14 +19,14 @@ const CRsection = () => {
               Sanyam Gupta
             </h2>
             <p className="leading-relaxed  focus-in-contract text-yellow-200 ">
-             HOD
+             Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta nostrum, natus laudantium officiis error minus facilis omnis aspernatur aliquid cumque, asperiores eum iste. Soluta, ab.
             </p>
           </div>
-          <div className="sm:w-2/6  mb-10 px-4 slide-in-blurred-bottom depth-effect glassmorphism-01 py-3">
-            <div className="rounded-lg h-64 depth-effect  slide-in-blurred-bottom  overflow-hidden">
+          <div className="md:w-2/5 w-full  mb-10 px-4 slide-in-blurred-bottom depth-effect max-h-[700px] glassmorphism-01 py-3 lg:pt-3">
+            <div className="rounded-lg h-64 depth-effect  slide-in-blurred-bottom md:h-3/5 overflow-hidden">
               <img
                 alt="content"
-                className="object-contain rounded-full object-center h-full w-full"
+                className="object-cover object-top h-full w-full"
                 src='./2021UEA6621.jpeg'
               />
             </div>
@@ -34,7 +34,7 @@ const CRsection = () => {
               Shiva Tripathi
             </h2>
             <p className="leading-relaxed focus-in-contract text-yellow-200 ">
-              | 2021UEA6621
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda accusantium eligendi, et voluptate nam, quisquam aspernatur architecto maxime excepturi nesciunt autem nemo deleniti consequatur. Eius!
             </p>
           </div>
           
