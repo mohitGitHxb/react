@@ -9,12 +9,12 @@ const Allstudents = () => {
     <section className="mt-4 body-font">
   <div className="container px-5 py-24 mx-auto">
     <div className='mb-12 md:mb-20'><h1 className='text-4xl md:text-5xl font-semibold text-white text-center'>| Batch - 2025</h1></div>
-    <div className="flex flex-wrap px-2 md:px-5 -m-4 justify-center md:justify-start">
+    <div className="flex flex-wrap px-2 md:px-5 -m-4 justify-center md:justify-evenly ">
 
     {
       students.map((ele)=>{
         return (
-      <div className="p-4 lg:w-1/2" key={ele.id}>
+      <div className="p-4 md:m-4 m-3 lg:w-2/5 glassmorphism-01 slide-in-blurred-bottom" key={ele.id} >
       <div className="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
         <img alt="team" className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src="https://dummyimage.com/200x200"/>
         <div className="flex-grow sm:pl-8">
