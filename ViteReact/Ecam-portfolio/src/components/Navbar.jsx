@@ -7,7 +7,7 @@ const Navbar = () => {
     <>
         <header className="text-white  body-font">
   <div className="container mx-auto md:justify-around flex flex-wrap p-5 flex-col md:flex-row items-center">
-    <a className="flex title-font font-medium items-center text-white mb-4 md:mb-0">
+    <a className="flex  title-font font-medium items-center text-white mb-4 md:mb-0">
       <img src='./nsuticon.png' className='object-contain w-14 md:w-16 filter
        brightness-[400] rounded' />
       <span className="ml-3 font-semibold bg-gradient-to-br from-yellow-200 to-yellow-100 text-transparent bg-clip-text text-2xl">ECAM</span>

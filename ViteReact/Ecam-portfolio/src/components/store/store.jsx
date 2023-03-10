@@ -18,14 +18,12 @@ export const AuthContextProvider = (props)=>{
     setIsCourseSelected(true);
     setDefaultCourseSelected(sub);
 
-    console.log(isCourseSelected);
-    console.table(defaultCourseSelected);
+
     
 }
 const setCourseFalse = ()=>{
     setIsCourseSelected(false);
-    console.log(isCourseSelected);
-    console.table(defaultCourseSelected);
+
 }
 
     return(
