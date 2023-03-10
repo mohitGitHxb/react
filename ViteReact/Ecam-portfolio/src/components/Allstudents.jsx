@@ -14,9 +14,9 @@ const Allstudents = () => {
     {
       students.map((ele)=>{
         return (
-      <div className="p-4 md:m-4 m-3 lg:w-2/5 glassmorphism-01 slide-in-blurred-bottom" key={ele.id} >
+      <div className="p-4 md:m-4 m-3 lg:w-2/5 glassmorphism-01 depth-effect slide-in-blurred-bottom" key={ele.id} >
       <div className="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
-        <img alt="team" className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src="https://dummyimage.com/200x200"/>
+        <img alt="team" className="flex-shrink-0 depth-effect rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src="https://dummyimage.com/200x200"/>
         <div className="flex-grow sm:pl-8">
           <h2 className="title-font focus-in-contract font-medium text-lg text-white">{ele.name}</h2>
           <h3 className="text-slate-300 mb-3">{ele.id}</h3>
