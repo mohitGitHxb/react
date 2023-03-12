@@ -6,6 +6,7 @@ const AuthContext = createContext({
         subjectName:'',
         syllabusLink:'',
         driveLink:'',
+        youtubeLink:'',
     },
     semData:Semester,
     setCourseTrue: ()=>{},
