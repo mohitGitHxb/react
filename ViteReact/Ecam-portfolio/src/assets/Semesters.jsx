@@ -144,7 +144,7 @@ const Semesters = [
       {
         subjectName: "EMFT",
         syllabusLink: "https://example.com/syllabus/webdev",
-        driveLink: "https://example.com/drive/webdev",
+        driveLink: "https://drive.google.com/drive/folders/15-hEOsa0wcJbCgdMRn6ftHTSSv_Q8L8_",
         youtubeLink: "",
       },
       {
@@ -156,7 +156,7 @@ const Semesters = [
       {
         subjectName: "MPCA",
         syllabusLink: "https://example.com/syllabus/sociology",
-        driveLink: "https://example.com/drive/sociology",
+        driveLink: "https://drive.google.com/drive/folders/1zdTZ6RSCBQ-d1zhpMMSkGN7ufQq_Tr6s",
         youtubeLink: "",
       },
       {
