@@ -10,6 +10,11 @@ const humansOfEcam = [
         description: "This is the second object"
       },
       {
+        id: "2021UEA6592",
+        name: "Arijit Kar",
+        description: "This is the second object"
+      },
+      {
         id: "2021UEA6638",
         name: "Object 3",
         description: "This is the third object"

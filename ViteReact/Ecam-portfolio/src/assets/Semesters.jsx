@@ -74,21 +74,21 @@ const Semesters = [
       },
       {
         subjectName: "ACAS",
-        syllabusLink: "https://example.com/drive/stats",
+        syllabusLink: "https://drive.google.com/file/d/17lxVJhCmuNVn8Ps_t_L2mNo1Tl6RdS9o/view?usp=share_link",
         driveLink:
           "https://drive.google.com/drive/folders/1P4Cjr2L7g4BMHB9RkLfSKl5K1KSAjiw1?usp=share_link",
         youtubeLink: "",
       },
       {
         subjectName: "MATHS-2",
-        syllabusLink: "https://example.com/syllabus/biology",
+        syllabusLink: "https://drive.google.com/file/d/1Dy5Rz41p9stcXdUXlFi7j97ot4WSzDvo/view?usp=share_link",
         driveLink:
           "https://drive.google.com/drive/folders/1yA094uFXV5RtHuUpK_XvH4Vw4M4s72g4?usp=share_link",
         youtubeLink: "",
       },
       {
         subjectName: "EDC",
-        syllabusLink: "https://example.com/syllabus/history",
+        syllabusLink: "https://drive.google.com/file/d/1PY2wzt3oxutFmk5xZ8Cu6OFiA311aj3h/view?usp=share_link",
         driveLink:
           "https://drive.google.com/drive/folders/1r-xZNUAQNqQyHzzx67o5ro-ANpzQTScQ?usp=share_link",
         youtubeLink: "",
