@@ -1,43 +1,43 @@
 const developersOfEcam = [
     {
-    imgUrl: '/2021UEA6592.png',
+    imgUrl: './ecam_humans/ak.jpeg',
     githubUrl: 'https://github.com/DemonicAK',
     instaUrl: 'https://www.instagram.com/superak_1/',
     username: 'Arijit kar'
   },
   {
-    imgUrl: 'https://dummyimage.com/200x200/000/fff',
+    imgUrl: './ecam_humans/mohit.png',
     githubUrl: 'https://github.com/mohitGitHxb',
     instaUrl: 'https://www.instagram.com/sus_mohit/',
-    username: 'Mohit jakhmola'
+    username: '!Mohit'
   },
   {
-    imgUrl: 'https://dummyimage.com/200x200/000/fff',
-    githubUrl: 'https://github.com/sarajones',
+    imgUrl: './ecam_humans/shiva.jpeg',
+    githubUrl: 'https://github.com/IAMSHIVATRIPATHI',
     instaUrl: 'https://www.instagram.com/shiva_20254/',
     username: 'Shiva tripathi'
   },
   {
-    imgUrl: 'https://dummyimage.com/200x200/000/fff',
-    githubUrl: 'https://github.com/bobsmith',
+    imgUrl: './ecam_humans/default.jpg',
+    githubUrl: 'https://github.com/Abhishek2533',
     instaUrl: 'https://www.instagram.com/bobsmith/',
     username: 'Abhisek'
   },
 
   {
-    imgUrl: 'https://dummyimage.com/200x200/000/fff',
+    imgUrl: './ecam_humans/rahul_gupta.png',
     githubUrl: 'https://github.com/geek-rahul',
     instaUrl: 'https://instagram.com/_itz__rahul_gupta',
     username: 'Rahul gupta'
   },
   {
-    imgUrl: 'https://dummyimage.com/200x200/000/fff',
+    imgUrl: './ecam_humans/jagjeet.jpeg',
     githubUrl: 'https://github.com/jagjeet-singh-23',
     instaUrl: 'https://instagram.com/ja.gjeet4605',
     username: 'jagjeet '
   },
   {
-    imgUrl: 'https://dummyimage.com/200x200/000/fff',
+    imgUrl: './ecam_humans/arihant.png',
     githubUrl: 'https://github.com/petersmith',
     instaUrl: 'https://www.instagram.com/arihantkumar05/',
     username: 'Arihant'

@@ -19,8 +19,8 @@ const DevsCarsouel = () => {
     setShow(false);
   };
   return (
-    <div className="h-60 my-10 sm:h-[270px] w-full sm:w-4/5 md:w-2/3 lg:h-[280px] xl:h-[400px] 2xl:h-[600px] mx-auto px-4  sm:px-8 md:px-10">
-      <Carousel slide={false} slideInterval={3000}>
+    <div className="h-60 sm:h-[270px] w-full sm:w-4/5 md:w-2/3 lg:h-[280px] xl:h-[400px] 2xl:h-[600px] mx-auto my-auto lg:my-10 px-4 sm:px-8 md:px-10">
+      <Carousel slide={!show} slideInterval={600}>
         {developersOfEcam.map((e, index) => {
           return (
             <div
@@ -55,7 +55,7 @@ const DevsCarsouel = () => {
                     </h4>
                   </a>
                 </div>
-                <h3 className="text-2xl sm:text-3xl lg:text-5xl text-transparent bg-clip-text bg-gradient-to-l from-yellow-200 via-green-200 to-green-500 font-bold shadow-xl tracking-normal ">
+                <h3 className="text-2xl h-fit uppercase sm:text-3xl lg:text-5xl text-transparent bg-clip-text bg-gradient-to-l from-yellow-200 via-green-200 to-green-500 font-bold shadow-xl tracking-normal ">
                   {e.username}
                 </h3>
               </div>

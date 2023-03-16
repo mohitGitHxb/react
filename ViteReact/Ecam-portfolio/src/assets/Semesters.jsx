@@ -74,21 +74,24 @@ const Semesters = [
       },
       {
         subjectName: "ACAS",
-        syllabusLink: "https://drive.google.com/file/d/17lxVJhCmuNVn8Ps_t_L2mNo1Tl6RdS9o/view?usp=share_link",
+        syllabusLink:
+          "https://drive.google.com/file/d/17lxVJhCmuNVn8Ps_t_L2mNo1Tl6RdS9o/view?usp=share_link",
         driveLink:
           "https://drive.google.com/drive/folders/1P4Cjr2L7g4BMHB9RkLfSKl5K1KSAjiw1?usp=share_link",
         youtubeLink: "",
       },
       {
         subjectName: "MATHS-2",
-        syllabusLink: "https://drive.google.com/file/d/1Dy5Rz41p9stcXdUXlFi7j97ot4WSzDvo/view?usp=share_link",
+        syllabusLink:
+          "https://drive.google.com/file/d/1Dy5Rz41p9stcXdUXlFi7j97ot4WSzDvo/view?usp=share_link",
         driveLink:
           "https://drive.google.com/drive/folders/1yA094uFXV5RtHuUpK_XvH4Vw4M4s72g4?usp=share_link",
         youtubeLink: "",
       },
       {
         subjectName: "EDC",
-        syllabusLink: "https://drive.google.com/file/d/1PY2wzt3oxutFmk5xZ8Cu6OFiA311aj3h/view?usp=share_link",
+        syllabusLink:
+          "https://drive.google.com/file/d/1PY2wzt3oxutFmk5xZ8Cu6OFiA311aj3h/view?usp=share_link",
         driveLink:
           "https://drive.google.com/drive/folders/1r-xZNUAQNqQyHzzx67o5ro-ANpzQTScQ?usp=share_link",
         youtubeLink: "",
@@ -102,31 +105,36 @@ const Semesters = [
       {
         subjectName: "MEC",
         syllabusLink: "https://example.com/syllabus/algo",
-        driveLink: "https://drive.google.com/drive/folders/1Di9Y9lj-Oem1FKeaMEoPwfyzsyqGVcG2?usp=share_link",
+        driveLink:
+          "https://drive.google.com/drive/folders/1Di9Y9lj-Oem1FKeaMEoPwfyzsyqGVcG2?usp=share_link",
         youtubeLink: "",
       },
       {
         subjectName: "SNS",
         syllabusLink: "https://example.com/syllabus/dbms",
-        driveLink: "https://drive.google.com/drive/folders/1uMlr1C9KeKGxLATj858P4jkFMYJSDnCp?usp=share_link",
+        driveLink:
+          "https://drive.google.com/drive/folders/1uMlr1C9KeKGxLATj858P4jkFMYJSDnCp?usp=share_link",
         youtubeLink: "",
       },
       {
         subjectName: "PTRP",
         syllabusLink: "https://example.com/syllabus/polsci",
-        driveLink: "https://drive.google.com/drive/folders/1-VigQaJYuo7LH9EjphhreVGdq_0Yt1gP?usp=share_link",
+        driveLink:
+          "https://drive.google.com/drive/folders/1-VigQaJYuo7LH9EjphhreVGdq_0Yt1gP?usp=share_link",
         youtubeLink: "",
       },
       {
         subjectName: "MML",
         syllabusLink: "https://example.com/syllabus/geography",
-        driveLink: "https://drive.google.com/drive/folders/1yVXMl17NukOh6mm8Wal2lKbdxyavW-dU?usp=share_link",
+        driveLink:
+          "https://drive.google.com/drive/folders/1yVXMl17NukOh6mm8Wal2lKbdxyavW-dU?usp=share_link",
         youtubeLink: "",
       },
       {
         subjectName: "DCS",
         syllabusLink: "https://example.com/syllabus/economics",
-        driveLink: "https://drive.google.com/drive/folders/1_2HFpECjtY917OTZ8b5FEleDupEygy3W?usp=share_link",
+        driveLink:
+          "https://drive.google.com/drive/folders/1_2HFpECjtY917OTZ8b5FEleDupEygy3W?usp=share_link",
         youtubeLink: "",
       },
     ],
@@ -144,7 +152,8 @@ const Semesters = [
       {
         subjectName: "EMFT",
         syllabusLink: "https://example.com/syllabus/webdev",
-        driveLink: "https://drive.google.com/drive/folders/15-hEOsa0wcJbCgdMRn6ftHTSSv_Q8L8_",
+        driveLink:
+          "https://drive.google.com/drive/folders/15-hEOsa0wcJbCgdMRn6ftHTSSv_Q8L8_",
         youtubeLink: "",
       },
       {
@@ -156,7 +165,8 @@ const Semesters = [
       {
         subjectName: "MPCA",
         syllabusLink: "https://example.com/syllabus/sociology",
-        driveLink: "https://drive.google.com/drive/folders/1zdTZ6RSCBQ-d1zhpMMSkGN7ufQq_Tr6s",
+        driveLink:
+          "https://drive.google.com/drive/folders/1zdTZ6RSCBQ-d1zhpMMSkGN7ufQq_Tr6s",
         youtubeLink: "",
       },
       {
