@@ -19,7 +19,7 @@ const DevsCarsouel = () => {
     setShow(false);
   };
   return (
-    <div className="h-60 sm:h-[270px] w-full sm:w-4/5 md:w-2/3 lg:h-[280px] xl:h-[400px] 2xl:h-[600px] mx-auto my-auto lg:my-10 px-4 sm:px-8 md:px-10">
+    <div className="h-60 sm:h-[270px] md:h-[500px] w-full lg:w-[60%] sm:w-4/5 lg:h-[280px] xl:h-[500px] 2xl:h-[600px] mx-auto my-auto lg:my-10 px-4 sm:px-8">
       <Carousel slide={!show} slideInterval={600}>
         {developersOfEcam.map((e, index) => {
           return (
@@ -28,21 +28,21 @@ const DevsCarsouel = () => {
               onMouseLeave={onMouseLeaveHandler}
               onMouseEnter={onMouseEnterHandler}
               onClick={displayHandler}
-              className="flex h-full relative items-center rounded-md justify-center depth-effect glassmorphism-01 dark:text-white"
+              className="flex h-full relative items-center rounded-md justify-center  tint-effect glassmorphism-01 dark:text-white"
             >
               <img
                 src={`${e.imgUrl}`}
-                className="object-top object-cover w-full h-full"
+                className="object-top object-cover w-full h-full max-h-[650px]"
               />
               <div className={`${show ? flexCls : hiddenCls}`}>
                 <div className="flex flex-row w-full lg:w-4/5 justify-evenly items-center">
                   <a
                     href={e.githubUrl}
                     target="_blank"
-                    className="flex flex-row items-center cursor-pointer"
+                    className="flex flex-row items-center cursor-pointer "
                   >
                     <BsGithub className="sm:h-10 h-8 w-8 sm:w-10 lg:h-14 lg:w-14 md:mr-6 mr-3 text-white hover:text-green-400 mb-2" />
-                    <h4 className="text-white text-lg md:text-3xl">Github</h4>
+                    <h4 className="text-white text-lg md:text-3xl  hover:text-green-400">Github</h4>
                   </a>
                   <a
                     href={e.instaUrl}
@@ -50,12 +50,12 @@ const DevsCarsouel = () => {
                     className="flex flex-row  items-center cursor-pointer"
                   >
                     <BsInstagram className="sm:h-10 h-8 w-8 sm:w-10 lg:h-14 lg:w-14 md:mr-6 mr-3 text-white hover:text-purple-400" />
-                    <h4 className="text-white text-lg md:text-3xl">
+                    <h4 className="text-white text-lg md:text-3xl  hover:text-purple-400">
                       Instagram
                     </h4>
                   </a>
                 </div>
-                <h3 className="text-2xl h-fit uppercase sm:text-3xl lg:text-5xl text-transparent bg-clip-text bg-gradient-to-l from-yellow-200 via-green-200 to-green-500 font-bold shadow-xl tracking-normal ">
+                <h3 className="text-2xl h-fit sm:text-3xl lg:text-5xl text-transparent bg-clip-text bg-gradient-to-l from-yellow-200 via-green-200 to-green-500 font-bold shadow-xl tracking-normal leading-6">
                   {e.username}
                 </h3>
               </div>

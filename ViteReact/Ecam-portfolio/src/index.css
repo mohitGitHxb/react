@@ -6,14 +6,22 @@
 }
 html{
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
-body{
+.normalTheme{
     background: rgb(77,0,77) !important;
     background: linear-gradient(132deg, rgba(77,0,77,1) 1%, rgba(0,105,95,1) 51%, rgba(0,35,110,1) 100%) !important; 
 
 }
+
+
 /* 
 body{
+    background: rgb(1,4,89);
+    background: linear-gradient(144deg, rgba(1,4,89,1) 8%, rgba(36,0,80,1) 20%, rgba(23,22,22,1) 37%, rgba(10,0,0,1) 66%, rgba(42,0,0,1) 85%); 
+} */
+
+/* body{
     background: linear-gradient(319deg, #000598 , #008983, #7e009d);
     background-size: 600% 600%;
 
@@ -43,6 +51,7 @@ body{
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+
 }
 
 
@@ -75,4 +84,8 @@ border: 1px solid rgba(87, 255, 220, 0.85);
     }
     .depth-effect{
         box-shadow: 0px 7px 18px 0px rgba(0, 0, 0, 0.82);
+    }
+
+    .tint-effect{
+        box-shadow: 0px 6px 43px 11px rgba(0,0,0,0.4),inset 0px 0px 19px 27px rgba(1,1,1,0.1);
     }

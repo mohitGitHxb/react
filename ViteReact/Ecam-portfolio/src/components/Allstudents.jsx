@@ -30,7 +30,7 @@ const Allstudents = () => {
                         {ele.name}
                       </h2>
                       <h3 className="text-slate-300 mb-3">{ele.id}</h3>
-                      <p className="mb-4 focus-in-contract text-white break-words w-4/5">
+                      <p className="mb-4 focus-in-contract text-white break-words text-center w-full md:w-4/5">
                         {ele.description}
                       </p>
                     </div>

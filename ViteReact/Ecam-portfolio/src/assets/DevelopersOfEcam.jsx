@@ -20,8 +20,8 @@ const developersOfEcam = [
   {
     imgUrl: './ecam_humans/default.jpg',
     githubUrl: 'https://github.com/Abhishek2533',
-    instaUrl: 'https://www.instagram.com/bobsmith/',
-    username: 'Abhisek'
+    instaUrl: 'https://www.instagram.com/abhi_pi_0/',
+    username: 'π'
   },
 
   {
