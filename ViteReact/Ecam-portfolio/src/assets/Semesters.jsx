@@ -146,7 +146,7 @@ const Semesters = [
       {
         subjectName: "MLAI",
         syllabusLink: "https://example.com/syllabus/ai",
-        driveLink: "https://example.com/drive/ai",
+        driveLink: "https://drive.google.com/drive/folders/1IX7Z432-Zy0EAui0nU-qUD8qde4qvIVA",
         youtubeLink: "",
       },
       {
@@ -166,161 +166,161 @@ const Semesters = [
         subjectName: "MPCA",
         syllabusLink: "https://example.com/syllabus/sociology",
         driveLink:
-          "https://drive.google.com/drive/folders/1zdTZ6RSCBQ-d1zhpMMSkGN7ufQq_Tr6s",
+          "https://drive.google.com/drive/folders/1qzMvcjgX6oIznua_gbNgbMZ-fREK2LOm",
         youtubeLink: "",
       },
       {
         subjectName: "CE",
         syllabusLink: "https://example.com/syllabus/envsci",
-        driveLink: "https://example.com/drive/envsci",
+        driveLink: "https://drive.google.com/drive/folders/1Ar7jMefXCX3TZaXN-OXYE2XZhC5sME7Y",
         youtubeLink: "",
       },
     ],
   },
-  {
-    id: 5,
-    Semester: "Semester-5",
-    items: [
-      {
-        subjectName: "Machine Learning",
-        syllabusLink: "https://example.com/syllabus/ml",
-        driveLink: "https://example.com/drive/ml",
-        youtubeLink: "",
-      },
-      {
-        subjectName: "Software Engineering",
-        syllabusLink: "https://example.com/syllabus/se",
-        driveLink: "https://example.com/drive/se",
-        youtubeLink: "",
-      },
-      {
-        subjectName: "Marketing",
-        syllabusLink: "https://example.com/syllabus/marketing",
-        driveLink: "https://example.com/drive/marketing",
-        youtubeLink: "",
-      },
-      {
-        subjectName: "Philosophy",
-        syllabusLink: "https://example.com/syllabus/philosophy",
-        driveLink: "https://example.com/drive/philosophy",
-        youtubeLink: "",
-      },
-      {
-        subjectName: "Literature",
-        syllabusLink: "https://example.com/syllabus/literature",
-        driveLink: "https://example.com/drive/literature",
-        youtubeLink: "",
-      },
-    ],
-  },
-  {
-    id: 6,
-    Semester: "Semester-6",
-    items: [
-      {
-        subjectName: "Natural Language Processing",
-        syllabusLink: "https://example.com/syllabus/nlp",
-        driveLink: "https://example.com/drive/nlp",
-        youtubeLink: "",
-      },
-      {
-        subjectName: "Networking",
-        syllabusLink: "https://example.com/syllabus/networking",
-        driveLink: "https://example.com/drive/networking",
-        youtubeLink: "",
-      },
-      {
-        subjectName: "Anthropology",
-        syllabusLink: "https://example.com/syllabus/anthropology",
-        driveLink: "https://example.com/drive/anthropology",
-        youtubeLink: "",
-      },
-      {
-        subjectName: "Archaeology",
-        syllabusLink: "https://example.com/syllabus/archaeology",
-        driveLink: "https://example.com/drive/archaeology",
-        youtubeLink: "",
-      },
-      {
-        subjectName: "Music",
-        syllabusLink: "https://example.com/syllabus/music",
-        driveLink: "https://example.com/drive/music",
-        youtubeLink: "",
-      },
-    ],
-  },
-  {
-    id: 7,
-    Semester: "Semester-7",
-    items: [
-      {
-        subjectName: "Computer Vision",
-        syllabusLink: "https://example.com/syllabus/cv",
-        driveLink: "https://example.com/drive/cv",
-        youtubeLink: "",
-      },
-      {
-        subjectName: "Cybersecurity",
-        syllabusLink: "https://example.com/syllabus/cybersecurity",
-        driveLink: "https://example.com/drive/cybersecurity",
-        youtubeLink: "",
-      },
-      {
-        subjectName: "Artificial Intelligence",
-        syllabusLink: "https://example.com/syllabus/ai",
-        driveLink: "https://example.com/drive/ai",
-        youtubeLink: "",
-      },
-      {
-        subjectName: "Mobile App Development",
-        syllabusLink: "https://example.com/syllabus/mobileappdev",
-        driveLink: "https://example.com/drive/mobileappdev",
-        youtubeLink: "",
-      },
-      {
-        subjectName: "Project Management",
-        syllabusLink: "https://example.com/syllabus/projectmanagement",
-        driveLink: "https://example.com/drive/projectmanagement",
-        youtubeLink: "",
-      },
-    ],
-  },
-  {
-    id: 8,
-    Semester: "Semester-8",
-    items: [
-      {
-        subjectName: "Cloud Computing",
-        syllabusLink: "https://example.com/syllabus/cloudcomputing",
-        driveLink: "https://example.com/drive/cloudcomputing",
-        youtubeLink: "",
-      },
-      {
-        subjectName: "Data Science",
-        syllabusLink: "https://example.com/syllabus/datascience",
-        driveLink: "https://example.com/drive/datascience",
-        youtubeLink: "",
-      },
-      {
-        subjectName: "Blockchain",
-        syllabusLink: "https://example.com/syllabus/blockchain",
-        driveLink: "https://example.com/drive/blockchain",
-        youtubeLink: "",
-      },
-      {
-        subjectName: "Bioinformatics",
-        syllabusLink: "https://example.com/syllabus/bioinformatics",
-        driveLink: "https://example.com/drive/bioinformatics",
-        youtubeLink: "",
-      },
-      {
-        subjectName: "Environmental Studies",
-        syllabusLink: "https://example.com/syllabus/environmentalstudies",
-        driveLink: "https://example.com/drive/environmentalstudies",
-        youtubeLink: "",
-      },
-    ],
-  },
+  // {
+  //   id: 5,
+  //   Semester: "Semester-5",
+  //   items: [
+  //     {
+  //       subjectName: "Machine Learning",
+  //       syllabusLink: "https://example.com/syllabus/ml",
+  //       driveLink: "https://example.com/drive/ml",
+  //       youtubeLink: "",
+  //     },
+  //     {
+  //       subjectName: "Software Engineering",
+  //       syllabusLink: "https://example.com/syllabus/se",
+  //       driveLink: "https://example.com/drive/se",
+  //       youtubeLink: "",
+  //     },
+  //     {
+  //       subjectName: "Marketing",
+  //       syllabusLink: "https://example.com/syllabus/marketing",
+  //       driveLink: "https://example.com/drive/marketing",
+  //       youtubeLink: "",
+  //     },
+  //     {
+  //       subjectName: "Philosophy",
+  //       syllabusLink: "https://example.com/syllabus/philosophy",
+  //       driveLink: "https://example.com/drive/philosophy",
+  //       youtubeLink: "",
+  //     },
+  //     {
+  //       subjectName: "Literature",
+  //       syllabusLink: "https://example.com/syllabus/literature",
+  //       driveLink: "https://example.com/drive/literature",
+  //       youtubeLink: "",
+  //     },
+  //   ],
+  // },
+  // {
+  //   id: 6,
+  //   Semester: "Semester-6",
+  //   items: [
+  //     {
+  //       subjectName: "Natural Language Processing",
+  //       syllabusLink: "https://example.com/syllabus/nlp",
+  //       driveLink: "https://example.com/drive/nlp",
+  //       youtubeLink: "",
+  //     },
+  //     {
+  //       subjectName: "Networking",
+  //       syllabusLink: "https://example.com/syllabus/networking",
+  //       driveLink: "https://example.com/drive/networking",
+  //       youtubeLink: "",
+  //     },
+  //     {
+  //       subjectName: "Anthropology",
+  //       syllabusLink: "https://example.com/syllabus/anthropology",
+  //       driveLink: "https://example.com/drive/anthropology",
+  //       youtubeLink: "",
+  //     },
+  //     {
+  //       subjectName: "Archaeology",
+  //       syllabusLink: "https://example.com/syllabus/archaeology",
+  //       driveLink: "https://example.com/drive/archaeology",
+  //       youtubeLink: "",
+  //     },
+  //     {
+  //       subjectName: "Music",
+  //       syllabusLink: "https://example.com/syllabus/music",
+  //       driveLink: "https://example.com/drive/music",
+  //       youtubeLink: "",
+  //     },
+  //   ],
+  // },
+  // {
+  //   id: 7,
+  //   Semester: "Semester-7",
+  //   items: [
+  //     {
+  //       subjectName: "Computer Vision",
+  //       syllabusLink: "https://example.com/syllabus/cv",
+  //       driveLink: "https://example.com/drive/cv",
+  //       youtubeLink: "",
+  //     },
+  //     {
+  //       subjectName: "Cybersecurity",
+  //       syllabusLink: "https://example.com/syllabus/cybersecurity",
+  //       driveLink: "https://example.com/drive/cybersecurity",
+  //       youtubeLink: "",
+  //     },
+  //     {
+  //       subjectName: "Artificial Intelligence",
+  //       syllabusLink: "https://example.com/syllabus/ai",
+  //       driveLink: "https://example.com/drive/ai",
+  //       youtubeLink: "",
+  //     },
+  //     {
+  //       subjectName: "Mobile App Development",
+  //       syllabusLink: "https://example.com/syllabus/mobileappdev",
+  //       driveLink: "https://example.com/drive/mobileappdev",
+  //       youtubeLink: "",
+  //     },
+  //     {
+  //       subjectName: "Project Management",
+  //       syllabusLink: "https://example.com/syllabus/projectmanagement",
+  //       driveLink: "https://example.com/drive/projectmanagement",
+  //       youtubeLink: "",
+  //     },
+  //   ],
+  // },
+  // {
+  //   id: 8,
+  //   Semester: "Semester-8",
+  //   items: [
+  //     {
+  //       subjectName: "Cloud Computing",
+  //       syllabusLink: "https://example.com/syllabus/cloudcomputing",
+  //       driveLink: "https://example.com/drive/cloudcomputing",
+  //       youtubeLink: "",
+  //     },
+  //     {
+  //       subjectName: "Data Science",
+  //       syllabusLink: "https://example.com/syllabus/datascience",
+  //       driveLink: "https://example.com/drive/datascience",
+  //       youtubeLink: "",
+  //     },
+  //     {
+  //       subjectName: "Blockchain",
+  //       syllabusLink: "https://example.com/syllabus/blockchain",
+  //       driveLink: "https://example.com/drive/blockchain",
+  //       youtubeLink: "",
+  //     },
+  //     {
+  //       subjectName: "Bioinformatics",
+  //       syllabusLink: "https://example.com/syllabus/bioinformatics",
+  //       driveLink: "https://example.com/drive/bioinformatics",
+  //       youtubeLink: "",
+  //     },
+  //     {
+  //       subjectName: "Environmental Studies",
+  //       syllabusLink: "https://example.com/syllabus/environmentalstudies",
+  //       driveLink: "https://example.com/drive/environmentalstudies",
+  //       youtubeLink: "",
+  //     },
+  //   ],
+  // },
 ];
 
 export default Semesters;
