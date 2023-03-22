@@ -6,10 +6,10 @@ const developersOfEcam = [
     username: 'Arijit kar'
   },
   {
-    imgUrl: './ecam_humans/mohit.png',
+    imgUrl: './ecam_humans/2021UEA6616.jpg',
     githubUrl: 'https://github.com/mohitGitHxb',
     instaUrl: 'https://www.instagram.com/sus_mohit/',
-    username: '!Mohit'
+    username: 'Mosfet Amplifier'
   },
   {
     imgUrl: './ecam_humans/shiva.jpeg',
@@ -18,7 +18,7 @@ const developersOfEcam = [
     username: 'Shiva tripathi'
   },
   {
-    imgUrl: './ecam_humans/default.jpg',
+    imgUrl: './ecam_humans/2021UEA6628.jpg',
     githubUrl: 'https://github.com/Abhishek2533',
     instaUrl: 'https://www.instagram.com/abhi_pi_0/',
     username: 'π'

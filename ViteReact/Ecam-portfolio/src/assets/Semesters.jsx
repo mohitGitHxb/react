@@ -145,13 +145,13 @@ const Semesters = [
     items: [
       {
         subjectName: "MLAI",
-        syllabusLink: "https://example.com/syllabus/ai",
+        syllabusLink: "https://drive.google.com/drive/folders/1hAdFPWAaklVcPu5oq9S4Y9GV7TBAjOhi",
         driveLink: "https://drive.google.com/drive/folders/1IX7Z432-Zy0EAui0nU-qUD8qde4qvIVA",
         youtubeLink: "",
       },
       {
         subjectName: "EMFT",
-        syllabusLink: "https://example.com/syllabus/webdev",
+        syllabusLink: "https://drive.google.com/drive/folders/15-hEOsa0wcJbCgdMRn6ftHTSSv_Q8L8_",
         driveLink:
           "https://drive.google.com/drive/folders/15-hEOsa0wcJbCgdMRn6ftHTSSv_Q8L8_",
         youtubeLink: "",
@@ -164,14 +164,14 @@ const Semesters = [
       },
       {
         subjectName: "MPCA",
-        syllabusLink: "https://example.com/syllabus/sociology",
+        syllabusLink: "https://drive.google.com/drive/folders/1bg3ZWUyGF0UMJ1s_CenCvJSh00RLWTgg",
         driveLink:
           "https://drive.google.com/drive/folders/1qzMvcjgX6oIznua_gbNgbMZ-fREK2LOm",
         youtubeLink: "",
       },
       {
         subjectName: "CE",
-        syllabusLink: "https://example.com/syllabus/envsci",
+        syllabusLink: "https://drive.google.com/drive/folders/1e6_eP1wqVB7S486efgWCkjSwLVbDQKvt",
         driveLink: "https://drive.google.com/drive/folders/1Ar7jMefXCX3TZaXN-OXYE2XZhC5sME7Y",
         youtubeLink: "",
       },

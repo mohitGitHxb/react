@@ -13,7 +13,7 @@ const humansOfEcam = [
   },
   {
     id: "2021UEA6616",
-    name: "Mohit jakhmola",
+    name: "!Mohit",
     description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, suscipit, tenetur dicta iste placeat eveniet, nihil veniam facilis repudiandae possimus ab fugiat culpa? Similique, nesciunt.",
     imgurl: "./ecam_humans/mohit.png",
   },
@@ -39,7 +39,7 @@ const humansOfEcam = [
     id: "2021UEA6628",
     name: "π",
     description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, suscipit, tenetur dicta iste placeat eveniet, nihil veniam facilis repudiandae possimus ab fugiat culpa? Similique, nesciunt.",
-    imgurl: "./ecam_humans/default.jpg",
+    imgurl: "./ecam_humans/2021UEA6628.jpg",
   },
 
   {

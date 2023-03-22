@@ -55,7 +55,7 @@ const DevsCarsouel = () => {
                     </h4>
                   </a>
                 </div>
-                <h3 className="text-2xl h-fit sm:text-3xl lg:text-5xl text-transparent bg-clip-text bg-gradient-to-l from-yellow-200 via-green-200 to-green-500 font-bold shadow-xl tracking-normal leading-6">
+                <h3 className="text-2xl uppercase sm:text-3xl lg:text-5xl text-transparent bg-clip-text bg-gradient-to-l from-yellow-200 via-green-200 to-green-500 font-bold shadow-xl tracking-normal leading-6">
                   {e.username}
                 </h3>
               </div>

@@ -44,7 +44,7 @@ const MainContents = (props) => {
             Check Out
           </a>
         </div>
-        <div className="lg:w-2/3 mt-2 flex  md:flex-row md:items-center justify-evenly md:justify-between items-center mx-auto md:mx-1">
+        {/* <div className="lg:w-2/3 mt-2 flex  md:flex-row md:items-center justify-evenly md:justify-between items-center mx-auto md:mx-1">
           <h1 className="text-sm font-medium  text-white">{`${subjectName}'s YouTube Links `}</h1>
           <a
             href={links.youtube}
@@ -54,7 +54,7 @@ const MainContents = (props) => {
           >
             Check Out
           </a>
-        </div>
+        </div> */}
       </div>
     </section>
   );
