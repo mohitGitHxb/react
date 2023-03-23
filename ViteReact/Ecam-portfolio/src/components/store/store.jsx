@@ -6,7 +6,7 @@ const AuthContext = createContext({
     subjectName: "",
     syllabusLink: "",
     driveLink: "",
-    youtubeLink: "",
+    youtubeLink: [],
   },
   semData: Semester,
   setCourseTrue: () => {},
@@ -18,6 +18,7 @@ export const AuthContextProvider = (props) => {
     subjectName: "",
     syllabusLink: "",
     driveLink: "",
+    youtubeLink:[],
   });
   const setCourseTrue = (sub) => {
     setIsCourseSelected(true);

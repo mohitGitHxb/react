@@ -62,6 +62,42 @@ const DevsCarsouel = () => {
             </div>
           );
         })}
+         <div
+              onMouseLeave={onMouseLeaveHandler}
+              onMouseEnter={onMouseEnterHandler}
+              onClick={displayHandler}
+              className="flex h-full relative items-center rounded-md justify-center  tint-effect glassmorphism-01 dark:text-white"
+            >
+              <img
+                src={`./ecam_humans/2021UEA6628.jpg`}
+                className="object-top object-cover w-full h-full max-h-[650px]"
+              />
+              <div className={`${show ? flexCls : hiddenCls}`}>
+                <div className="flex flex-row w-full lg:w-4/5 justify-evenly items-center">
+                  <a
+                    href={'https://github.com/Abhishek2533'}
+                    target="_blank"
+                    className="flex flex-row items-center cursor-pointer "
+                  >
+                    <BsGithub className="sm:h-10 h-8 w-8 sm:w-10 lg:h-14 lg:w-14 md:mr-6 mr-3 text-white hover:text-green-400 mb-2" />
+                    <h4 className="text-white text-lg md:text-3xl  hover:text-green-400">Github</h4>
+                  </a>
+                  <a
+                    href={'https://www.instagram.com/abhi_pi_0/'}
+                    target="_blank"
+                    className="flex flex-row  items-center cursor-pointer"
+                  >
+                    <BsInstagram className="sm:h-10 h-8 w-8 sm:w-10 lg:h-14 lg:w-14 md:mr-6 mr-3 text-white hover:text-purple-400" />
+                    <h4 className="text-white text-lg md:text-3xl  hover:text-purple-400">
+                      Instagram
+                    </h4>
+                  </a>
+                </div>
+                <h3 className="text-2xl sm:text-3xl lg:text-5xl text-transparent bg-clip-text bg-gradient-to-l from-yellow-200 via-green-200 to-green-500 font-bold shadow-xl tracking-normal leading-6">π
+                  
+                </h3>
+              </div>
+            </div>
       </Carousel>
       {/* <h1 className='text-[100px] font-mono text-yellow-50 text-center align-middle'>ERROR 404</h1> */}
     </div>

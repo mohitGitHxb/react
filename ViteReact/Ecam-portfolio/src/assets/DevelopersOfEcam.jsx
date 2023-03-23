@@ -18,13 +18,6 @@ const developersOfEcam = [
     username: 'Shiva tripathi'
   },
   {
-    imgUrl: './ecam_humans/2021UEA6628.jpg',
-    githubUrl: 'https://github.com/Abhishek2533',
-    instaUrl: 'https://www.instagram.com/abhi_pi_0/',
-    username: 'π'
-  },
-
-  {
     imgUrl: './ecam_humans/rahul_gupta.png',
     githubUrl: 'https://github.com/geek-rahul',
     instaUrl: 'https://instagram.com/_itz__rahul_gupta',

@@ -36,10 +36,10 @@ const humansOfEcam = [
     imgurl: "./ecam_humans/shiva.jpeg",
   },
   {
-    id: "2021UEA6628",
+    id: "2021UEA6627",
     name: "π",
     description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, suscipit, tenetur dicta iste placeat eveniet, nihil veniam facilis repudiandae possimus ab fugiat culpa? Similique, nesciunt.",
-    imgurl: "./ecam_humans/2021UEA6628.jpg",
+    imgurl: "./ecam_humans/2021UEA6627.jpg",
   },
 
   {
