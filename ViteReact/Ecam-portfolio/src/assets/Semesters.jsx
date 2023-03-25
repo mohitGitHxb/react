@@ -52,27 +52,21 @@ const Semesters = [
           "https://drive.google.com/file/d/1eHODoW99MWorxGsVERCG9M3ocpJVtr1I/view?usp=share_link",
         driveLink:
           "https://drive.google.com/file/d/1eHODoW99MWorxGsVERCG9M3ocpJVtr1I/view?usp=share_link",
-        youtubeLink: [
-          {
-            unit: 1,
-            link: "https://youtube.com/playlist?list=PL-vEH_IPWrhATHlYXrN3q8jayOiz09ZD3",
-          },
-          {
-            unit: 2,
-            link: "https://youtube.com/playlist?list=PL-vEH_IPWrhATHlYXrN3q8jayOiz09ZD3",
-          },
-          {
-            unit: 3,
-            link: "https://youtube.com/playlist?list=PLSGws_74K01-g9nnTMBssGURHawYYQfMQ",
-          },
-          {
-            unit: 4,
-            link: "https://youtube.com/playlist?list=PLjtQ3BMex7hvIuffqJ-zD6grphZta10VZ",
-          },
-          {
-            unit: 5,
-            link: "https://youtube.com/playlist?list=PL9RcWoqXmzaLnlGN39w2-1jyFyI_ALVa3",
-          },
+        youtubeLink: 
+        [
+        
+        
+        {unit:1,
+        link:"https://youtube.com/playlist?list=PL-vEH_IPWrhATHlYXrN3q8jayOiz09ZD3",},
+        {unit:2,
+        link:"https://youtube.com/playlist?list=PL-vEH_IPWrhATHlYXrN3q8jayOiz09ZD3",},
+        {unit:3,
+        link:"https://youtube.com/playlist?list=PLSGws_74K01-g9nnTMBssGURHawYYQfMQ",},
+        {unit:4,
+        link:"https://youtube.com/playlist?list=PLjtQ3BMex7hvIuffqJ-zD6grphZta10VZ",},
+        {unit:5,
+        link:"https://youtube.com/playlist?list=PL9RcWoqXmzaLnlGN39w2-1jyFyI_ALVa3",},
+        
         ],
       },
       {
