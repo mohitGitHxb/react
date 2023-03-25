@@ -1,19 +1,22 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-*{
-    scroll-behavior: smooth;
+* {
+  scroll-behavior: smooth;
 }
-html{
-    scroll-behavior: smooth;
-    overflow-x: hidden;
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
 }
-.normalTheme{
-    background: rgb(77,0,77) !important;
-    background: linear-gradient(132deg, rgba(77,0,77,1) 1%, rgba(0,105,95,1) 51%, rgba(0,35,110,1) 100%) !important; 
-
+.normalTheme {
+  background: rgb(77, 0, 77) !important;
+  background: linear-gradient(
+    132deg,
+    rgba(77, 0, 77, 1) 1%,
+    rgba(0, 105, 95, 1) 51%,
+    rgba(0, 35, 110, 1) 100%
+  ) !important;
 }
-
 
 /* 
 body{
@@ -46,46 +49,58 @@ body{
     100%{background-position:1% 0%}
 } */
 
-
-#root{
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
+.glassmorphism-01 {
+  background: rgba(255, 254, 254, 0.12);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(3.2px);
+  -webkit-backdrop-filter: blur(3.2px);
+  border: 1px solid rgba(255, 254, 254, 0.3);
+}
+.glassmorphism-02 {
+  background: rgba(36, 0, 255, 0.19);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5.6px);
+  -webkit-backdrop-filter: blur(5.6px);
+  border: 1px solid rgba(36, 0, 255, 0.33);
+}
+.glassmorphism-03 {
+  /* From https://css.glass */
+  background: rgba(87, 255, 220, 0.17);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(8.2px);
+  -webkit-backdrop-filter: blur(8.2px);
+  border: 1px solid rgba(87, 255, 220, 0.85);
+}
+.depth-effect {
+  box-shadow: 0px 7px 18px 0px rgba(0, 0, 0, 0.82);
+}
 
+.tint-effect {
+  box-shadow: 0px 6px 43px 11px rgba(0, 0, 0, 0.4),
+    inset 0px 0px 19px 27px rgba(1, 1, 1, 0.1);
+}
 
-   .glassmorphism-01{
-        background: rgba(255, 254, 254, 0.12);
-    border-radius: 16px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(3.2px);
-    -webkit-backdrop-filter: blur(3.2px);
-    border: 1px solid rgba(255, 254, 254, 0.3);
-    }
-    .glassmorphism-02{
-    
-    background: rgba(36, 0, 255, 0.19);
-    border-radius: 16px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(5.6px);
-    -webkit-backdrop-filter: blur(5.6px);
-    border: 1px solid rgba(36, 0, 255, 0.33);
-    }
-    .glassmorphism-03{
-        /* From https://css.glass */
-background: rgba(87, 255, 220, 0.17);
-border-radius: 16px;
-box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-backdrop-filter: blur(8.2px);
--webkit-backdrop-filter: blur(8.2px);
-border: 1px solid rgba(87, 255, 220, 0.85);
-    }
-    .depth-effect{
-        box-shadow: 0px 7px 18px 0px rgba(0, 0, 0, 0.82);
-    }
+.glow-effect {
+  -webkit-box-shadow: 0px 0px 79px 19px rgba(45, 255, 196, 0.77);
+  -moz-box-shadow: 0px 0px 79px 19px rgba(45, 255, 196, 0.77);
+  box-shadow: 0px 0px 79px 19px rgba(45, 255, 196, 0.77);
+}
 
-    .tint-effect{
-        box-shadow: 0px 6px 43px 11px rgba(0,0,0,0.4),inset 0px 0px 19px 27px rgba(1,1,1,0.1);
-    }
+.text-glow-red {
+  text-shadow: rgba(255, 0, 0, 0.94) 0px 0px 30px;
+}
+h1 {
+  text-shadow: rgba(234, 133, 245, 0.94) 0px 0px 30px;
+}
+.text-glow-cyan {
+  text-shadow: rgba(54, 255, 178, 0.94) 0px 0px 14px;
+}

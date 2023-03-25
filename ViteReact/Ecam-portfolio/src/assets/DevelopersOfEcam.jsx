@@ -1,6 +1,6 @@
 const developersOfEcam = [
     {
-    imgUrl: './ecam_humans/ak.jpeg',
+    imgUrl: './ecam_humans/ak2.jpeg',
     githubUrl: 'https://github.com/DemonicAK',
     instaUrl: 'https://www.instagram.com/superak_1/',
     username: 'Arijit kar'

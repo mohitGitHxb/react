@@ -45,7 +45,7 @@ const humansOfEcam = [
     id: "2021UEA6627",
     name: "π",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, suscipit, tenetur dicta iste placeat eveniet, nihil veniam facilis repudiandae possimus ab fugiat culpa? Similique, nesciunt.",
+      "Average anime lover, You name the anime I have watched it!. Official resource provider for the class. Mere hi notes se kaam chalta sabka",
     imgurl: "./ecam_humans/pi.jpg",
   },
 
@@ -82,13 +82,13 @@ const humansOfEcam = [
     name: "Divyam Bhanu Srivastava",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, suscipit, tenetur dicta iste placeat eveniet, nihil veniam facilis repudiandae possimus ab fugiat culpa? Similique, nesciunt.",
-    imgurl: "./ecam_humans/divyam1.jpeg",
+    imgurl: "./ecam_humans/divyam.jpeg",
   },
   {
     id: "2021UEA6613",
     name: "Divyanshu Narayan",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, suscipit, tenetur dicta iste placeat eveniet, nihil veniam facilis repudiandae possimus ab fugiat culpa? Similique, nesciunt.",
+      "Anime enthusiast |  Fingers aren't the only thing I'm good at eating.",
     imgurl: "./ecam_humans/divyanshu.jpeg",
   },
   {
@@ -131,7 +131,14 @@ const humansOfEcam = [
     name: "Neeraj",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, suscipit, tenetur dicta iste placeat eveniet, nihil veniam facilis repudiandae possimus ab fugiat culpa? Similique, nesciunt.",
-    imgurl: "./ecam_humans/neeraj3.jpeg",
+    imgurl: "./ecam_humans/neeraj.jpeg",
+  },
+  {
+    id: "2021UEA6581",
+    name: "Rahul Sharma",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, suscipit, tenetur dicta iste placeat eveniet, nihil veniam facilis repudiandae possimus ab fugiat culpa? Similique, nesciunt.",
+    imgurl: "./ecam_humans/rahulsarma.jpeg",
   },
   {
     id: "2021UEA7024",
@@ -194,7 +201,7 @@ const humansOfEcam = [
     name: "Ankit Kumar ",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, suscipit, tenetur dicta iste placeat eveniet, nihil veniam facilis repudiandae possimus ab fugiat culpa? Similique, nesciunt.",
-    imgurl: "./ecam_humans/ankit.jpeg",
+    imgurl: "./ecam_humans/ankit1.jpeg",
   },
   {
     id: "2021UEA7618",
@@ -218,7 +225,7 @@ const humansOfEcam = [
     imgurl: "./ecam_humans/sagar.jpeg",
   },
   {
-    id: "2021UEA6693",
+    id: "2021UEA6593",
     name: "Sanjeev narang",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, suscipit, tenetur dicta iste placeat eveniet, nihil veniam facilis repudiandae possimus ab fugiat culpa? Similique, nesciunt.",

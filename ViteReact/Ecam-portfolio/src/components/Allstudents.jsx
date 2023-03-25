@@ -19,14 +19,14 @@ const Allstudents = () => {
                   className="p-4 md:m-4 m-3 lg:w-2/5 w-4/5 glassmorphism-03 depth-effect slide-in-blurred-bottom"
                   key={ele.id}
                 >
-                  <div className="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
+                  <div className="h-full flex sm:flex-row  flex-col items-center sm:justify-start justify-center text-center sm:text-left">
                     <img
                       alt={`${ele.name}`}
                       className="flex-shrink-0 depth-effect rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4"
                       src={ele.imgurl}
                     />
                     <div className="flex-grow sm:pl-8">
-                      <h2 className="title-font focus-in-contract font-semibold text-lg text-white">
+                      <h2 className="title-font focus-in-contract text-glow-cyan font-semibold text-lg text-white">
                         {ele.name}
                       </h2>
                       <h3 className="text-slate-300 mb-3">{ele.id}</h3>
