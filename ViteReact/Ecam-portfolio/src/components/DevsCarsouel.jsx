@@ -19,7 +19,7 @@ const DevsCarsouel = () => {
     setShow(false);
   };
   return (
-    <div className="h-60 sm:h-[270px] md:h-[500px]  w-full lg:w-[60%] sm:w-4/5 lg:h-[280px] xl:h-[500px] 2xl:h-[600px] mx-auto my-auto lg:my-10 px-4 sm:px-8">
+    <div className="h-60 sm:h-[270px] md:h-[500px] xl:w-[55%]  w-full lg:w-[60%] sm:w-4/5 lg:h-[280px] xl:h-[500px] 2xl:h-[600px] mx-auto my-auto lg:my-10 px-4 sm:px-8">
       <Carousel slide={!show} slideInterval={3000} className='depth-effect rounded-lg'>
         {developersOfEcam.map((e, index) => {
           return (
