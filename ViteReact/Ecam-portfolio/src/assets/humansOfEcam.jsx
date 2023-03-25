@@ -45,7 +45,7 @@ const humansOfEcam = [
     id: "2021UEA6627",
     name: "π",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, suscipit, tenetur dicta iste placeat eveniet, nihil veniam facilis repudiandae possimus ab fugiat culpa? Similique, nesciunt.",
+      "Average anime lover, You name the anime I have watched it!. Official resource provider for the class. Mere hi notes se kaam chalta sabka",
     imgurl: "./ecam_humans/pi.jpg",
   },
 
@@ -88,7 +88,7 @@ const humansOfEcam = [
     id: "2021UEA6613",
     name: "Divyanshu Narayan",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, suscipit, tenetur dicta iste placeat eveniet, nihil veniam facilis repudiandae possimus ab fugiat culpa? Similique, nesciunt.",
+      "Anime enthusiast |  Fingers aren't the only thing I'm good at eating.",
     imgurl: "./ecam_humans/divyanshu.jpeg",
   },
   {

@@ -21,12 +21,12 @@ const MainContents = (props) => {
     <section className="text-gray-400 body-font w-full">
       <div className="container mt-8 md:mt-10">
         <div className="lg:w-2/3 mt-2 flex  md:flex-row md:items-center justify-evenly md:justify-between items-center mx-auto md:mx-1">
-          <h1 className="text-sm font-medium  text-white">{`${subjectName}'s Syllabus  `}</h1>
+          <h1 className="text-sm font-medium text-white">{`${subjectName}'s Syllabus  `}</h1>
           <a
             href={links.syllabus}
             target="_blank"
             rel="noopener noreferrer"
-            className="flex-shrink-0 text-white bg-blue-500 border-0 py-2 px-4 focus:outline-none hover:bg-blue-600 rounded text-sm"
+            className="flex-shrink-0 text-white bg-green-400 border-0 py-2 px-4 focus:outline-none hover:bg-green-600 rounded text-sm"
           >
             Check Out
           </a>
@@ -37,26 +37,27 @@ const MainContents = (props) => {
             href={links.drive}
             target="_blank"
             rel="noopener noreferrer"
-            className="flex-shrink-0 text-white bg-blue-500 border-0 py-2 px-4 focus:outline-none hover:bg-blue-600 rounded text-sm"
+            className="flex-shrink-0 text-white bg-green-500 border-0 py-2 px-4 focus:outline-none hover:bg-green-600 rounded text-sm"
           >
             Check Out
           </a>
         </div>
-    {/* {   
+    {   
       links.youtube.map((unit,idx) => {
         return <div key={idx+1} className="lg:w-2/3 mt-2 flex  md:flex-row md:items-center justify-evenly md:justify-between items-center mx-auto md:mx-1">
-          <h1 className="text-sm font-medium  text-white">{`${subjectName}'s unit - ${unit.unit} link`}</h1>
+          <h1 className="text-sm font-medium  text-white">{unit.unit?`${subjectName}'s unit - ${unit.unit} link`:
+          `${subjectName}'s full playlist`}</h1>
           <a
             href={unit.link}
             target="_blank"
             rel="noopener noreferrer"
-            className="flex-shrink-0 text-white bg-blue-500 border-0 py-2 px-4 focus:outline-none hover:bg-blue-600 rounded text-sm"
+            className="flex-shrink-0 text-white bg-green-500 border-0 py-2 px-4 focus:outline-none hover:bg-green-600 rounded text-sm"
           >
             Check Out
           </a>
         </div>
       })
-        } */}
+        }
       </div>
     </section>
   );
