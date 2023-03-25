@@ -42,7 +42,7 @@ const MainContents = (props) => {
             Check Out
           </a>
         </div>
-    {   
+    {/* {   
       links.youtube.map((unit,idx) => {
         return <div key={idx+1} className="lg:w-2/3 mt-2 flex  md:flex-row md:items-center justify-evenly md:justify-between items-center mx-auto md:mx-1">
           <h1 className="text-sm font-medium  text-white">{`${subjectName}'s unit - ${unit.unit} link`}</h1>
@@ -56,7 +56,7 @@ const MainContents = (props) => {
           </a>
         </div>
       })
-        }
+        } */}
       </div>
     </section>
   );

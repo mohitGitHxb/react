@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import humansOfEcam from "../assets/humansOfEcam";
 
 const Allstudents = () => {
-  const [students, setStudents] = useState(humansOfEcam);
+  const [students, setStudents] = useState(humansOfEcam.sort((a,b)=>a.id > b.id ));
   return (
     <>
       <section className="mt-4 body-font">
@@ -21,7 +21,7 @@ const Allstudents = () => {
                 >
                   <div className="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
                     <img
-                      alt="team"
+                      alt={`${ele.name}`}
                       className="flex-shrink-0 depth-effect rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4"
                       src={ele.imgurl}
                     />

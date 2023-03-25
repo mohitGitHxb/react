@@ -20,7 +20,7 @@ const DevsCarsouel = () => {
   };
   return (
     <div className="h-60 sm:h-[270px] md:h-[500px] w-full lg:w-[60%] sm:w-4/5 lg:h-[280px] xl:h-[500px] 2xl:h-[600px] mx-auto my-auto lg:my-10 px-4 sm:px-8">
-      <Carousel slide={!show} slideInterval={600}>
+      <Carousel slide={!show} slideInterval={3000}>
         {developersOfEcam.map((e, index) => {
           return (
             <div
@@ -69,7 +69,7 @@ const DevsCarsouel = () => {
               className="flex h-full relative items-center rounded-md justify-center  tint-effect glassmorphism-01 dark:text-white"
             >
               <img
-                src={`./ecam_humans/2021UEA6628.jpg`}
+                src={`./ecam_humans/pi.jpg`}
                 className="object-top object-cover w-full h-full max-h-[650px]"
               />
               <div className={`${show ? flexCls : hiddenCls}`}>
