@@ -3,21 +3,21 @@ const humansOfEcam = [
     id: "2021UEA6592",
     name: "Lord AK",
     description:
-      "Universal admin. Kisi bhi group me jao I'll be the admin most probably",
+      "Universal admin. Kisi bhi group me jao I'll be the admin most probably | ML and web development grinder ",
     imgurl: "./ecam_humans/ak1.jpeg",
   },
   {
     id: "2021UEA6636",
     name: "Rahul Gupta",
     description:
-      "Aadhe ghante me file bana kr submit karne ka ghamand h! , CGPA Grinder and heavy comder",
+      "Aadhe ghante me file bana kr submit karne ka ghamand h! , CGPA Grinder and heavy comder | I am not chapri kitni baar bolu",
     imgurl: "./ecam_humans/rahul_gupta.png",
   },
   {
     id: "2021UEA6616",
     name: "!Mohit",
     description:
-      "CODM leaderboard #64 2020 | Life me bs gaming hi rhe gyi h... vo toh chali gyi",
+      "const life = getLife(); | Finally desktop ban hi gya | CODM player and a member of venatus",
     imgurl: "./ecam_humans/mohit.jpeg",
   },
   {
@@ -31,7 +31,7 @@ const humansOfEcam = [
     id: "2021UEA6615",
     name: "Jagjeet Singh",
     description:
-      "Description? vo kya hota ?. Raat me padke subah exam dekar 80%+ lena is not a difficult task for me",
+      "Imagine writing description for this. What a time waste!. Maybe I should just go and prepare for endsems",
     imgurl: "./ecam_humans/jagjeet.jpeg",
   },
   {
@@ -60,7 +60,7 @@ const humansOfEcam = [
     id: "2021UEA6637",
     name: "Advik Kaushik",
     description:
-      "Ghaziabad bad boy attitude | PisTOL lober | GUNDA",
+      "Ghaziabad bad boy | ladAi mE SabSE AAGE  | hiGh attitude | PisTOL lober | ",
     imgurl:"./ecam_humans/advik.jpeg"
   },
   {
@@ -81,7 +81,7 @@ const humansOfEcam = [
     id: "2021UEA4103",
     name: "Divyam Bhanu Srivastava",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, suscipit, tenetur dicta iste placeat eveniet, nihil veniam facilis repudiandae possimus ab fugiat culpa? Similique, nesciunt.",
+      "IEEE ka 7*2 | Sagar ka priye mitr | Got a S20 FE because my pockets were getting hefty from the money",
     imgurl: "./ecam_humans/divyam.jpeg",
   },
   {
@@ -109,7 +109,7 @@ const humansOfEcam = [
     id: "2021UEA4374",
     name: "HARSH DADHICH",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, suscipit, tenetur dicta iste placeat eveniet, nihil veniam facilis repudiandae possimus ab fugiat culpa? Similique, nesciunt.",
+      "Padaku banda aur sachin ka bharosa! Extremely good at volleyball | Main campus team member",
     imgurl: "./ecam_humans/harshdadhich.jpeg",
   },
   {
@@ -123,21 +123,21 @@ const humansOfEcam = [
     id: "2021UEA6594",
     name: "Narendra Sharma",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, suscipit, tenetur dicta iste placeat eveniet, nihil veniam facilis repudiandae possimus ab fugiat culpa? Similique, nesciunt.",
+      "Magic pin manager at laxmi nagar | Mere sath hote hue kisi ko bus ka kiraya dene ki zarurat nhi padegi ",
     imgurl: "./ecam_humans/narendra.jpeg",
   },
   {
     id: "2021UEA6628",
     name: "Neeraj",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, suscipit, tenetur dicta iste placeat eveniet, nihil veniam facilis repudiandae possimus ab fugiat culpa? Similique, nesciunt.",
+      "Competitive programmer | Machine learning enthusiast | Full stack web development | Igdtuw campus ambassador",
     imgurl: "./ecam_humans/neeraj.jpeg",
   },
   {
     id: "2021UEA6581",
     name: "Rahul Sharma",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, suscipit, tenetur dicta iste placeat eveniet, nihil veniam facilis repudiandae possimus ab fugiat culpa? Similique, nesciunt.",
+      "Coding Blocks pr paise barbaad kardiye | Always lose in Ludo | NSS team core member (saaf safai ke alava bhi kaam hota h bc)",
     imgurl: "./ecam_humans/rahulsarma.jpeg",
   },
   {
@@ -165,49 +165,49 @@ const humansOfEcam = [
     id: "2021UEA6575",
     name: "Rahul Kumar Singh ",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, suscipit, tenetur dicta iste placeat eveniet, nihil veniam facilis repudiandae possimus ab fugiat culpa? Similique, nesciunt.",
+      "Snapchat grinder | Your jee mains rank is my snapchat streak. | Photographer | Always asking for attendance | Class me Ludo is permanent",
     imgurl: "./ecam_humans/rks.jpeg",
   },
   {
     id: "2021UEA6623",
     name: "Aadarsh Kumar",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, suscipit, tenetur dicta iste placeat eveniet, nihil veniam facilis repudiandae possimus ab fugiat culpa? Similique, nesciunt.",
+      "Crazy fan of jujutsu kaisen | File banani h? I gotchu homie. | Sleephead and always looking for a something that can help me forget her",
     imgurl: "./ecam_humans/adarsh.jpeg",
   },
   {
     id: "2021UEA6566",
     name: "Sachin",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, suscipit, tenetur dicta iste placeat eveniet, nihil veniam facilis repudiandae possimus ab fugiat culpa? Similique, nesciunt.",
+      "Phanka gira dunga! AATANK KAUF | Poet and cooking lover | Instragram influencer",
     imgurl: "./ecam_humans/sacin.jpeg",
   },
   {
     id: "2021UEA6612",
     name: "Satyam Mishra",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, suscipit, tenetur dicta iste placeat eveniet, nihil veniam facilis repudiandae possimus ab fugiat culpa? Similique, nesciunt.",
+      "6'3 ft height | GYM lover but still roz canteen me chilly potatoes khata huin, Attendance always short | Roz 10 reels bhejunga",
     imgurl: "./ecam_humans/satyam1.jpeg",
   },
   {
     id: "2021UEA6602",
     name: "Sushil",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, suscipit, tenetur dicta iste placeat eveniet, nihil veniam facilis repudiandae possimus ab fugiat culpa? Similique, nesciunt.",
+      "Smaller than Arijit | Bike lover | cigarrete hookah vodka rum whisky sabse nashe karta hu",
     imgurl: "./ecam_humans/sushil.jpeg",
   },
   {
     id: "2021UEA6569",
     name: "Ankit Kumar ",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, suscipit, tenetur dicta iste placeat eveniet, nihil veniam facilis repudiandae possimus ab fugiat culpa? Similique, nesciunt.",
+      "No description parental control lg jayega, I got cgpa more than your bitches",
     imgurl: "./ecam_humans/ankit1.jpeg",
   },
   {
     id: "2021UEA7618",
     name: "Arpit Kumar Gaurav",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, suscipit, tenetur dicta iste placeat eveniet, nihil veniam facilis repudiandae possimus ab fugiat culpa? Similique, nesciunt.",
+      "Unlucky dude | Ex- West campus | Anime and Memes that's all my life is for. Can't think of a better description",
     imgurl: "./ecam_humans/arpit.jpeg",
   },
   {
@@ -221,7 +221,7 @@ const humansOfEcam = [
     id: "2021UEA6611",
     name: "Sagar Sejwal",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, suscipit, tenetur dicta iste placeat eveniet, nihil veniam facilis repudiandae possimus ab fugiat culpa? Similique, nesciunt.",
+      "Favourite student of kirmender sir | GYM addict | Roz swiggy ya zomato se order karta coz paisa bohot h | Got 5 exes and still counting",
     imgurl: "./ecam_humans/sagar.jpeg",
   },
   {
@@ -239,17 +239,17 @@ const humansOfEcam = [
     imgurl: "./ecam_humans/shivom.jpeg",
   },
   {
-    id: "2021UEA6697",
+    id: "2021UEA6597",
     name: "Adit Kumar",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, suscipit, tenetur dicta iste placeat eveniet, nihil veniam facilis repudiandae possimus ab fugiat culpa? Similique, nesciunt.",
+      "BGMI and CoC player | Favourite station: Rajiv chowk | Member of NSS east and a part of Subasha East chapter",
     imgurl: "./ecam_humans/adit.jpeg",
   },
   {
     id: "2021UEA6619",
     name: "Aryan Duhan",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, suscipit, tenetur dicta iste placeat eveniet, nihil veniam facilis repudiandae possimus ab fugiat culpa? Similique, nesciunt.",
+      "Central Secretariat se chota padta h bhai maante kyu nhi ho? Andrew tate supporter #freetate | farreh/phone arrange karwane ho toh contact me",
     imgurl: "./ecam_humans/duhan1.jpeg",
   },
   {
@@ -270,7 +270,7 @@ const humansOfEcam = [
     id: "2021UEA7642",
     name: "Shivendra",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, suscipit, tenetur dicta iste placeat eveniet, nihil veniam facilis repudiandae possimus ab fugiat culpa? Similique, nesciunt.",
+      "Bhai rahul 50rs kab dega? Food lover | favourite dishes are those which are free... | MPCA ki attendance chahiye toh DM me",
     imgurl: "./ecam_humans/sivendar.jpeg",
   },
   // {

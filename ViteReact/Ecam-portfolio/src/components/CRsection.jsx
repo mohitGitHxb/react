@@ -19,7 +19,7 @@ const CRsection = () => {
               Sanyam Gupta
             </h2>
             <p className="leading-relaxed focus-in-contract text-yellow-200 ">
-                Official HOD of the east campus no cap !, One of the most trustworthy people one can ever describe.
+                Official HOD of the east campus no cap !, One of the most trustworthy people one can ever describe | Kuch bhi dikkat ho contact Sanyam 
             </p>
           </div>
           <div className="md:w-3/5 w-full lg:w-2/5  mb-10 px-4 slide-in-blurred-bottom depth-effect max-h-[700px] glassmorphism-01 py-3 lg:pt-3">
@@ -34,7 +34,7 @@ const CRsection = () => {
               Shiva Tripathi
             </h2>
             <p className="leading-relaxed focus-in-contract text-yellow-200 text-clip">
-              Don't know how the hell he became the CR but dude is pretty good at convincing teachers for the class benefit
+              Don't know how the hell he became the CR but dude is pretty good at convincing teachers for the class benefit | File banane ke 250rs charge karega
             </p>
           </div>
         </div>

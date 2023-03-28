@@ -26,7 +26,7 @@ const MainContents = (props) => {
             href={links.syllabus}
             target="_blank"
             rel="noopener noreferrer"
-            className="flex-shrink-0 text-white bg-green-400 border-0 py-2 px-4 focus:outline-none hover:bg-green-600 rounded text-sm"
+            className="flex-shrink-0 font-mono font-semibold text-white bg-green-500 border-0 py-2 px-4 focus:outline-none hover:bg-green-600 rounded text-sm"
           >
             Check Out
           </a>
@@ -37,7 +37,7 @@ const MainContents = (props) => {
             href={links.drive}
             target="_blank"
             rel="noopener noreferrer"
-            className="flex-shrink-0 text-white bg-green-500 border-0 py-2 px-4 focus:outline-none hover:bg-green-600 rounded text-sm"
+            className="flex-shrink-0 text-white font-mono font-semibold bg-green-500 border-0 py-2 px-4 focus:outline-none hover:bg-green-600 rounded text-sm"
           >
             Check Out
           </a>
@@ -51,7 +51,7 @@ const MainContents = (props) => {
             href={unit.link}
             target="_blank"
             rel="noopener noreferrer"
-            className="flex-shrink-0 text-white bg-green-500 border-0 py-2 px-4 focus:outline-none hover:bg-green-600 rounded text-sm"
+            className="flex-shrink-0 text-white font-mono font-semibold bg-green-500 border-0 py-2 px-4 focus:outline-none hover:bg-green-600 rounded text-sm"
           >
             Check Out
           </a>

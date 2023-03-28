@@ -9,7 +9,7 @@ const Allstudents = () => {
         <div className="container px-5 py-24 mx-auto">
           <div className="mb-12 md:mb-20">
             <h1 className="text-4xl md:text-5xl font-semibold text-white text-center">
-              | Batch - 2025
+              | Batch - 2025 |
             </h1>
           </div>
           <div className="flex flex-wrap px-2 md:px-5 -m-4 justify-center md:justify-evenly ">
