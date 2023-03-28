@@ -6,7 +6,7 @@ const developersOfEcam = [
     username: 'Arijit kar'
   },
   {
-    imgUrl: './ecam_humans/mohit.jpeg',
+    imgUrl: './ecam_humans/Desktop666.jpg',
     githubUrl: 'https://github.com/mohitGitHxb',
     instaUrl: 'https://www.instagram.com/sus_mohit/',
     username: 'Mosfet Amplifier'
