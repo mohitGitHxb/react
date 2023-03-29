@@ -51,22 +51,28 @@ const Semesters = [
         syllabusLink:
           "https://drive.google.com/file/d/1eHODoW99MWorxGsVERCG9M3ocpJVtr1I/view?usp=share_link",
         driveLink:
-          "https://drive.google.com/file/d/1eHODoW99MWorxGsVERCG9M3ocpJVtr1I/view?usp=share_link",
-        youtubeLink: 
-        [
-        
-        
-        {unit:1,
-        link:"https://youtube.com/playlist?list=PL-vEH_IPWrhATHlYXrN3q8jayOiz09ZD3",},
-        {unit:2,
-        link:"https://youtube.com/playlist?list=PL-vEH_IPWrhATHlYXrN3q8jayOiz09ZD3",},
-        {unit:3,
-        link:"https://youtube.com/playlist?list=PLSGws_74K01-g9nnTMBssGURHawYYQfMQ",},
-        {unit:4,
-        link:"https://youtube.com/playlist?list=PLjtQ3BMex7hvIuffqJ-zD6grphZta10VZ",},
-        {unit:5,
-        link:"https://youtube.com/playlist?list=PL9RcWoqXmzaLnlGN39w2-1jyFyI_ALVa3",},
-        
+          "https://drive.google.com/drive/folders/1KepPbsG1wPJ6FyrbALOyuQh1OExuoCRu?usp=share_link",
+        youtubeLink: [
+          {
+            unit: 1,
+            link: "https://youtube.com/playlist?list=PL-vEH_IPWrhATHlYXrN3q8jayOiz09ZD3",
+          },
+          {
+            unit: 2,
+            link: "https://youtube.com/playlist?list=PL-vEH_IPWrhATHlYXrN3q8jayOiz09ZD3",
+          },
+          {
+            unit: 3,
+            link: "https://youtube.com/playlist?list=PLSGws_74K01-g9nnTMBssGURHawYYQfMQ",
+          },
+          {
+            unit: 4,
+            link: "https://youtube.com/playlist?list=PLjtQ3BMex7hvIuffqJ-zD6grphZta10VZ",
+          },
+          {
+            unit: 5,
+            link: "https://youtube.com/playlist?list=PL9RcWoqXmzaLnlGN39w2-1jyFyI_ALVa3",
+          },
         ],
       },
       {
@@ -84,8 +90,10 @@ const Semesters = [
       },
       {
         subjectName: "ENGLISH",
-        syllabusLink: "https://example.com/syllabus/english",
-        driveLink: "https://example.com/drive/english",
+        syllabusLink:
+          "https://drive.google.com/file/d/1F3ST-VlcXvYI7Z0155SFUvl8Pit2SlW4/view?usp=share_link",
+        driveLink:
+          "https://drive.google.com/drive/folders/1BTwAxHIklf4tppKw2ZZX1e9h1nqYPiFc?usp=share_link",
         youtubeLink: [
           {
             unit: 0,
@@ -346,13 +354,13 @@ const Semesters = [
           "https://drive.google.com/drive/folders/1IX7Z432-Zy0EAui0nU-qUD8qde4qvIVA",
         youtubeLink: [
           {
-            unit:`Machine learning`,
-            link:"https://youtube.com/playlist?list=PLYwpaL_SFmcBhOEPwf5cFwqo5B-cP9G4P"
+            unit: `Machine learning`,
+            link: "https://youtube.com/playlist?list=PLYwpaL_SFmcBhOEPwf5cFwqo5B-cP9G4P",
           },
           {
-            unit:`Artificial Intelligence`,
-            link:"https://youtube.com/playlist?list=PLYwpaL_SFmcBmfMtX5wRMAtqna7pY-YtG"
-          }
+            unit: `Artificial Intelligence`,
+            link: "https://youtube.com/playlist?list=PLYwpaL_SFmcBmfMtX5wRMAtqna7pY-YtG",
+          },
         ],
       },
       {
@@ -363,8 +371,8 @@ const Semesters = [
           "https://drive.google.com/drive/folders/15-hEOsa0wcJbCgdMRn6ftHTSSv_Q8L8_",
         youtubeLink: [
           {
-            unit:0,
-            link:"https://youtube.com/playlist?list=PLgwJf8NK-2e4I_YltJja47CwZJkzNWK89"
+            unit: 0,
+            link: "https://youtube.com/playlist?list=PLgwJf8NK-2e4I_YltJja47CwZJkzNWK89",
           },
         ],
       },
@@ -374,13 +382,13 @@ const Semesters = [
         driveLink: "https://example.com/drive/psychology",
         youtubeLink: [
           {
-          unit:`Arduino`,
-          link:"https://youtube.com/playlist?list=PLVl__93X7ZlxnDtEY1_ibH-fECYEAKAQC"
-        },
-        {
-          unit:`Power Supply`,
-          link:"https://youtube.com/playlist?list=PLVl__93X7ZlwDPkK4IZwlkO_M829L3ywh"
-        }
+            unit: `Arduino`,
+            link: "https://youtube.com/playlist?list=PLVl__93X7ZlxnDtEY1_ibH-fECYEAKAQC",
+          },
+          {
+            unit: `Power Supply`,
+            link: "https://youtube.com/playlist?list=PLVl__93X7ZlwDPkK4IZwlkO_M829L3ywh",
+          },
         ],
       },
       {
@@ -391,9 +399,9 @@ const Semesters = [
           "https://drive.google.com/drive/folders/1qzMvcjgX6oIznua_gbNgbMZ-fREK2LOm",
         youtubeLink: [
           {
-            unit:0,
-            link:"https://youtube.com/playlist?list=PLd7ZnpYrrolq6T74tVCuhxlqX_627_Rhy"
-          }
+            unit: 0,
+            link: "https://youtube.com/playlist?list=PLd7ZnpYrrolq6T74tVCuhxlqX_627_Rhy",
+          },
         ],
       },
       {
@@ -404,9 +412,9 @@ const Semesters = [
           "https://drive.google.com/drive/folders/1Ar7jMefXCX3TZaXN-OXYE2XZhC5sME7Y",
         youtubeLink: [
           {
-            unit:0,
-            link:"https://youtube.com/playlist?list=PLgwJf8NK-2e7uyUYrpgUUQowmRuKxRdwp"
-          }
+            unit: 0,
+            link: "https://youtube.com/playlist?list=PLgwJf8NK-2e7uyUYrpgUUQowmRuKxRdwp",
+          },
         ],
       },
     ],

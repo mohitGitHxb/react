@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import humansOfEcam from "../assets/humansOfEcam";
 
 const Allstudents = () => {
-  const [students, setStudents] = useState(humansOfEcam.sort((a,b)=>a.id > b.id ));
+  const [students, setStudents] = useState(humansOfEcam);
   return (
     <>
       <section className="mt-4 body-font">

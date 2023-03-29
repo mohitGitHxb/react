@@ -10,7 +10,7 @@ const humansOfEcam = [
     id: "2021UEA6636",
     name: "Rahul Gupta",
     description:
-      "Aadhe ghante me file bana kr submit karne ka ghamand h! , CGPA Grinder and heavy comder | I am not chapri kitni baar bolu",
+      "Aadhe ghante me file bana kr submit karne ka ghamand h! , CGPA Grinder and heavy comder | Ludo King",
     imgurl: "./ecam_humans/rahul_gupta.png",
   },
   {
@@ -36,9 +36,9 @@ const humansOfEcam = [
   },
   {
     id: "2021UEA6621",
-    name: "Shiva tripathi",
+    name: "Shiva Tripathi",
     description:
-      "CR hu Ecam-2 ka. Also a member of the event management team of east campus | DJ shiva is my nickname",
+      "CR hu Ecam-2 ka, Creative Team Head of East Campus | DJ Shiva is my nickname",
     imgurl: "./ecam_humans/shiva.jpeg",
   },
   {
@@ -61,13 +61,13 @@ const humansOfEcam = [
     name: "Advik Kaushik",
     description:
       "Ghaziabad bad boy | ladAi mE SabSE AAGE  | hiGh attitude | PisTOL lober | ",
-    imgurl:"./ecam_humans/advik.jpeg"
+    imgurl: "./ecam_humans/advik.jpeg",
   },
   {
     id: "2021UEA6614",
     name: "Arnav Gupta",
     description:
-      "I guess I am the only one who actually studies during college hours! baaki ML grinder toh hu hi and an execomm member of debsoc and gdsc",
+      "I guess I am the only one who actually study during college hours! baaki ML grinder toh hu hi and an execomm member of debsoc and gdsc",
     imgurl: "./ecam_humans/arnav.jpeg",
   },
   {
@@ -81,7 +81,7 @@ const humansOfEcam = [
     id: "2021UEA4103",
     name: "Divyam Bhanu Srivastava",
     description:
-      "IEEE ka 7*2 | Sagar ka priye mitr | Got a S20 FE because my pockets were getting hefty from the money",
+      "IEEE ka 7*2 | Sagar ka priye mitr | I play cricket , with SKODA as my wicket",
     imgurl: "./ecam_humans/divyam.jpeg",
   },
   {
@@ -102,7 +102,7 @@ const humansOfEcam = [
     id: "2021UEA7003",
     name: "Harsh Deshwal",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, suscipit, tenetur dicta iste placeat eveniet, nihil veniam facilis repudiandae possimus ab fugiat culpa? Similique, nesciunt.",
+      "Creative Team member of East campus | Quiz society leader",
     imgurl: "./ecam_humans/harsh_deshwal.jpeg",
   },
   {
@@ -123,21 +123,21 @@ const humansOfEcam = [
     id: "2021UEA6594",
     name: "Narendra Sharma",
     description:
-      "Magic pin manager at laxmi nagar | Mere sath hote hue kisi ko bus ka kiraya dene ki zarurat nhi padegi ",
-    imgurl: "./ecam_humans/narendra.jpeg",
+      "Proxy Manager | Magic pin manager at laxmi nagar | Blue Line humesa kharab ho jati hai | Kunal bhai paise kab wapas karega? ",
+    imgurl: "./ecam_humans/narendar1.jpeg",
   },
   {
     id: "2021UEA6628",
     name: "Neeraj",
     description:
-      "Competitive programmer | Machine learning enthusiast | Full stack web development | Igdtuw campus ambassador",
+      "Competitive programmer | Machine learning enthusiast | Full stack web development | Igdtuw campus ambassador |Find any IGDTUW  girl and I'm blocked in her contacts.",
     imgurl: "./ecam_humans/neeraj.jpeg",
   },
   {
     id: "2021UEA6581",
     name: "Rahul Sharma",
     description:
-      "Coding Blocks pr paise barbaad kardiye | Always lose in Ludo | NSS team core member (saaf safai ke alava bhi kaam hota h bc)",
+      "Bc tere se jyada questions kar rakhe hai leetcode par | Always lose in Ludo | NSS team core member (saaf safai ke alava bhi kaam hota h bc)",
     imgurl: "./ecam_humans/rahulsarma.jpeg",
   },
   {
@@ -151,7 +151,7 @@ const humansOfEcam = [
     id: "2021UEA6596",
     name: "Rashid Reyaz",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, suscipit, tenetur dicta iste placeat eveniet, nihil veniam facilis repudiandae possimus ab fugiat culpa? Similique, nesciunt.",
+      "Cool dude | Biryani Party | I got to sleep | Attendance Ki lagi padi hai bhai ",
     imgurl: "./ecam_humans/rashid.jpeg",
   },
   {
@@ -179,8 +179,8 @@ const humansOfEcam = [
     id: "2021UEA6566",
     name: "Sachin",
     description:
-      "Phanka gira dunga! AATANK KAUF | Poet and cooking lover | Instragram influencer",
-    imgurl: "./ecam_humans/sacin.jpeg",
+      "THE CURSER ! AATANK KAUF | Poet | Singer | Cooking Lover | Instragram influencer",
+    imgurl: "./ecam_humans/sacin1.jpeg",
   },
   {
     id: "2021UEA6612",
@@ -193,15 +193,15 @@ const humansOfEcam = [
     id: "2021UEA6602",
     name: "Sushil",
     description:
-      "Smaller than Arijit | Bike lover | cigarrete hookah vodka rum whisky sabse nashe karta hu",
+      "Smaller than Arijit |Sakt londa | Bike lover(dad's gift) | cigarrete hookah vodka rum whisky sabse nashe karta hu",
     imgurl: "./ecam_humans/sushil.jpeg",
   },
   {
     id: "2021UEA6569",
     name: "Ankit Kumar ",
     description:
-      "No description parental control lg jayega, I got cgpa more than your bitches",
-    imgurl: "./ecam_humans/ankit1.jpeg",
+      "No description parental control lag jayega, I got cgpa more than your bitches",
+    imgurl: "./ecam_humans/ankit2.jpeg",
   },
   {
     id: "2021UEA7618",
@@ -227,8 +227,7 @@ const humansOfEcam = [
   {
     id: "2021UEA6593",
     name: "Sanjeev narang",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, suscipit, tenetur dicta iste placeat eveniet, nihil veniam facilis repudiandae possimus ab fugiat culpa? Similique, nesciunt.",
+    description: "Bhai Hotspot on  krdo",
     imgurl: "./ecam_humans/sanjev.jpeg",
   },
   {
@@ -242,21 +241,28 @@ const humansOfEcam = [
     id: "2021UEA6597",
     name: "Adit Kumar",
     description:
-      "BGMI and CoC player | Favourite station: Rajiv chowk | Member of NSS east and a part of Subasha East chapter",
+      "BGMI and CoC player | Favourite station: Rajiv chowk | Member of NSS east | Joint secretary of Literary Chapter NSUT EAST Campus by Shifa reference ",
     imgurl: "./ecam_humans/adit.jpeg",
+  },
+  {
+    id: "2021UEA6580",
+    name: "Aryan mehra",
+    description:
+      "Bhai next sem se padhunga | hindi gane ye kya hota h english suno| Baki ye sab kuch nhi hota MUNIRKA aao",
+    imgurl: "./ecam_humans/mehra.jpeg",
   },
   {
     id: "2021UEA6619",
     name: "Aryan Duhan",
     description:
-      "Central Secretariat se chota padta h bhai maante kyu nhi ho? Andrew tate supporter #freetate | farreh/phone arrange karwane ho toh contact me",
+      "Dark memes and humor is my niche | Andrew tate supporter #freetate | ",
     imgurl: "./ecam_humans/duhan1.jpeg",
   },
   {
     id: "2021UEA6618",
     name: "Gurmesh Singh",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, suscipit, tenetur dicta iste placeat eveniet, nihil veniam facilis repudiandae possimus ab fugiat culpa? Similique, nesciunt.",
+      "BGMI gyro pro player. Bullet lover",
     imgurl: "./ecam_humans/gurmesh.jpeg",
   },
   {
@@ -273,11 +279,21 @@ const humansOfEcam = [
       "Bhai rahul 50rs kab dega? Food lover | favourite dishes are those which are free... | MPCA ki attendance chahiye toh DM me",
     imgurl: "./ecam_humans/sivendar.jpeg",
   },
-  // {
-  //   id: "2021UEA6700",
-  //   name: "Shaurya",
-  //   description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, suscipit, tenetur dicta iste placeat eveniet, nihil veniam facilis repudiandae possimus ab fugiat culpa? Similique, nesciunt.",
-  //   imgurl: "./ecam_humans/Sourya.jpeg",
-  // },
+  {
+    id: "2021UEA6631",
+    name: "Sanyam Gupta",
+    description: "Unofficial HOD | Event Management Team Head | NSS core member |CR Ecam-2 | Biker gang leader",
+    imgurl: "./ecam_humans/sanyam.jpeg",
+  },
+  {
+    id: "2021UEA6567",
+    name: "Shaurya",
+    description:
+      "Can throw ball faster than her blocking you... | Cricket Goat | Gym Freak",
+    imgurl: "./ecam_humans/Sourya.jpeg",
+  },
 ];
-export default humansOfEcam;
+export default humansOfEcam.sort((a,b)=>{
+  if(a.id > b.id) return 1;
+  return -1;
+});
