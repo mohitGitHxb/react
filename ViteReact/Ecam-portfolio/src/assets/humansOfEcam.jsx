@@ -67,7 +67,7 @@ const humansOfEcam = [
     id: "2021UEA6614",
     name: "Arnav Gupta",
     description:
-      "I guess I am the only one who actually studies during college hours! baaki ML grinder toh hu hi and an execomm member of debsoc and gdsc",
+      "I guess I am the only one who actually study during college hours! baaki ML grinder toh hu hi and an execomm member of debsoc and gdsc",
     imgurl: "./ecam_humans/arnav.jpeg",
   },
   {
@@ -201,7 +201,7 @@ const humansOfEcam = [
     name: "Ankit Kumar ",
     description:
       "No description parental control lag jayega, I got cgpa more than your bitches",
-    imgurl: "./ecam_humans/ankit1.jpeg",
+    imgurl: "./ecam_humans/ankit2.jpeg",
   },
   {
     id: "2021UEA7618",
@@ -269,7 +269,7 @@ const humansOfEcam = [
     id: "2021UEA6573",
     name: "Ishwar Kumar Pal",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, suscipit, tenetur dicta iste placeat eveniet, nihil veniam facilis repudiandae possimus ab fugiat culpa? Similique, nesciunt.",
+      "Kabhi Kabhi lagta h apun ich bhagwaan h",
     imgurl: "./ecam_humans/iswar.jpeg",
   },
   {
