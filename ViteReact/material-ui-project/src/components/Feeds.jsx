@@ -1,16 +1,19 @@
 import { Box, Stack, Typography } from "@mui/material";
-import React, { useEffect , useState} from "react";
+import React, { useEffect, useState } from "react";
 import Sidebar from "./Sidebar";
 import Videos from "./Videos";
 import { fetchFromAPI } from "../utils/fetchFromApi";
 const Feeds = () => {
-  const [selectedCategory, setSelectedCategory] = useState('New');
-  const [videos, setVideos] = useState([]);
-  useEffect(()=>{
-    fetchFromAPI(`search?part=snippet&q=${selectedCategory}`).then((data)=>{
-      setVideos(data.items);
-    }).catch(err => console.log(err))
-  },[selectedCategory])
+  const [selectedCategory, setSelectedCategory] = useState("New");
+  const [videos, setVideos] = useState(null);
+
+  useEffect(() => {
+    setVideos(null);
+
+    fetchFromAPI(`search?part=snippet&q=${selectedCategory}`).then((data) =>
+      setVideos(data.items)
+    );
+  }, [selectedCategory,setVideos]);
   return (
     <Stack sx={{ flexDirection: { sx: "column", md: "row" } }}>
       <Box
@@ -20,9 +23,9 @@ const Feeds = () => {
           px: { sx: "auto", md: 2 },
         }}
       >
-        <Sidebar 
-        selectedCategory={selectedCategory}
-        setSelectedCategory={setSelectedCategory}
+        <Sidebar
+          selectedCategory={selectedCategory}
+          setSelectedCategory={setSelectedCategory}
         />
         <Typography
           className="copyright"
@@ -40,7 +43,7 @@ const Feeds = () => {
           mb={2}
           sx={{ color: "white" }}
         >
-          {selectedCategory}{' '}
+          {selectedCategory}{" "}
           <span
             style={{
               color: "#F31503",
@@ -49,7 +52,7 @@ const Feeds = () => {
             Videos
           </span>
         </Typography>
-        <Videos videos={videos}/>
+        <Videos videos={videos} />
       </Box>
     </Stack>
   );

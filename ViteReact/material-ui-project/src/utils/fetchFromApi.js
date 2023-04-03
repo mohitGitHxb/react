@@ -1,42 +1,20 @@
 import axios from 'axios';
-const BASE_URL = 'https://youtube-v31.p.rapidapi.com/'
+export const BASE_URL = 'https://youtube-v31.p.rapidapi.com';
 const options = {
-  method: 'GET',
-  url: BASE_URL,
   params: {
-    q: 'music',
-    part: 'snippet,id',
-    regionCode: 'US',
-    maxResults: '50',
-    order: 'date'
+    maxResults: 50,
   },
   headers: {
-    'X-RapidAPI-Key': 'f9e221fbf4mshe3e580edf130655p115d02jsn32a8141e8926',
-    'X-RapidAPI-Host': 'youtube-v31.p.rapidapi.com'
-  }
+    'X-RapidAPI-Key': process.env.REACT_APP_RAPID_API_KEY,
+    'X-RapidAPI-Host': 'youtube-v31.p.rapidapi.com',
+  },
 };
 
-axios.request(options).then(function (response) {
-	console.log(response.data);
-}).catch(function (error) {
-	console.error(error);
-});
-
 export const fetchFromAPI = async (url) => {
-  try {
-    const response =  await axios.get(`${BASE_URL}/${url}`,options);
-    if (response.ok) {
-      const data = await response.data;
-      return data;
-    }
-    else{
-      throw new Error(response.statusText);
-    }
- }catch(error) {
-    console.log(error);
-    return new Array(3);
- }
-}
+  const { data } = await axios.get(`${BASE_URL}/${url}`, options);
+
+  return data;
+};
 
 // const options = {
 // 	method: 'GET',
