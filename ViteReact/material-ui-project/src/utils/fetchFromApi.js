@@ -3,9 +3,11 @@ export const BASE_URL = 'https://youtube-v31.p.rapidapi.com';
 const options = {
   params: {
     maxResults: 50,
+    regionCode: 'IN',
   },
   headers: {
-    'X-RapidAPI-Key': process.env.REACT_APP_RAPID_API_KEY,
+    'X-RapidAPI-Key': 'f9e221fbf4mshe3e580edf130655p115d02jsn32a8141e8926',
+    // 'X-RapidAPI-Key': process.env.REACT_APP_RAPID_API_KEY,
     'X-RapidAPI-Host': 'youtube-v31.p.rapidapi.com',
   },
 };
