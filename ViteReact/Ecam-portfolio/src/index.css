@@ -17,7 +17,17 @@ html {
     rgba(0, 35, 110, 1) 100%
   ) !important;
 }
+.DevsBg{
+  background: url(../public/devsbg.jpg), linear-gradient(180deg, #000000 4%, #FFEE53 50.52%, #000000 96%);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+background-blend-mode: multiply, normal;
+}
 
+.navbar-links{
+  text-shadow: 0px 2px 6px rgba(172, 134, 0, 0.82);
+}
 /* 
 body{
     background: rgb(1,4,89);

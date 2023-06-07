@@ -28,13 +28,13 @@ const Navbar = () => {
               className="object-contain w-14 md:w-16 filter
        brightness-[400] rounded"
             />
-            <span className="ml-3 font-semibold text-white text-2xl">
+            <span className="ml-3 font-bold text-white md:text-3xl text-xl">
               <NavLink className="title-font" to="/">
                 ECAM
               </NavLink>
             </span>
           </a>
-          <nav className=" flex flex-wrap items-center text-base justify-center">
+          <nav className=" flex flex-wrap font-semibold items-center md:text-[24px] text-[15px] navbar-links justify-center">
             <NavLink
               to={"/"}
               className={({ isActive }) => (isActive ? active : inactive)}
