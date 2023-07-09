@@ -14,7 +14,6 @@ const ContactUs = () => {
             name="contact"
             id="contact"
             placeholder="enter your message"
-            autoFocus
             className="focus:outline-none mt-7 text-white bg-white bg-opacity-10 py-3 px-4 rounded-full placeholder:font-semibold placeholder:text-gray-300 w-11/12 lg:w-4/5"
           />
           <button
