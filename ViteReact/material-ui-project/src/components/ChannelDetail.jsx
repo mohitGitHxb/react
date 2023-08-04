@@ -1,7 +1,7 @@
 import { Box } from "@mui/material";
 import React, { useEffect } from "react";
 import { useParams } from "react-router";
-import fetchFromApi from "../utils/fetchFromApi";
+import { fetchFromAPI } from "../utils/fetchFromApi.js";
 import { useState } from "react";
 import ChannelCard from "./ChannelCard";
 import Videos from "./Videos";
@@ -12,10 +12,10 @@ const ChannelDetail = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const data = await fetchFromApi(`channels?part=snippet%id=${id}`);
+        const data = await fetchFromAPI(`channels?part=snippet%id=${id}`);
         setChannelDetails(data?.items[0]);
 
-        const videosData = await fetchFromApi(
+        const videosData = await fetchFromAPI(
           `search?channelId=${id}&part=snippet%2Cid&order=date`
         );
         setVideos(videosData?.items);

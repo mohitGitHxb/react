@@ -7,7 +7,7 @@ const CRsection = () => {
           OUR OFFICIAL CRs
         </h1>
         <div className="flex flex-wrap -mx-4 -mb-10 justify-center gap-1 sm:px-8 px-2 sm:gap-6 lg:gap-8 text-center">
-          <div className="md:w-3/5 lg:w-2/5 w-full  mb-10 px-4 slide-in-blurred-bottom depth-effect max-h-[700px] glassmorphism-01 py-3 lg:pt-3">
+          <div className="md:w-3/5 lg:w-2/5 w-full  mb-10 px-4 slide-in-blurred-bottom depth-effect max-h-[700px] glassmorphism-02 py-3 lg:pt-3">
             <div className="rounded-lg h-64 depth-effect  slide-in-blurred-bottom md:h-3/5 overflow-hidden">
               <img
                 alt="content"
@@ -22,7 +22,7 @@ const CRsection = () => {
                 Official HOD of the east campus no cap !, One of the most trustworthy people one can ever describe | Kuch bhi dikkat ho contact Sanyam 
             </p>
           </div>
-          <div className="md:w-3/5 w-full lg:w-2/5  mb-10 px-4 slide-in-blurred-bottom depth-effect max-h-[700px] glassmorphism-01 py-3 lg:pt-3">
+          <div className="md:w-3/5 w-full lg:w-2/5  mb-10 px-4 slide-in-blurred-bottom depth-effect max-h-[700px] glassmorphism-02 py-3 lg:pt-3">
             <div className="rounded-lg h-64 depth-effect  slide-in-blurred-bottom md:h-3/5 overflow-hidden">
               <img
                 alt="content"

@@ -24,6 +24,21 @@ html {
   background-size: cover;
 background-blend-mode: multiply, normal;
 }
+.Batch-2025Bg{
+  background: url(../public/Batch-2025Bg.png),  linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(140,255,248,1) 25%, rgba(196,0,228,1) 50%, rgba(140,255,248,1) 75%, rgba(0,0,0,1) 96%);;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+background-blend-mode: multiply, normal;
+}
+.homepage{
+  background: url(../public/homepageBg.png),linear-gradient(180deg, #000000 4%, #00857D 50.52%, #000000 97%);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: multiply, normal;
+}
 
 .navbar-links{
   text-shadow: 0px 2px 6px rgba(172, 134, 0, 0.82);
@@ -59,22 +74,22 @@ body{
     100%{background-position:1% 0%}
 } */
 
-#root {
+/* #root {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-}
+} */
 
 .glassmorphism-01 {
   background: rgba(255, 254, 254, 0.12);
   border-radius: 16px;
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1), 0px 0px 20px 0px rgba(255,255,255,0.75);
   backdrop-filter: blur(3.2px);
   -webkit-backdrop-filter: blur(3.2px);
-  border: 1px solid rgba(255, 254, 254, 0.3);
+  border: 1px solid rgba(255, 254, 254, 0.493);
 }
 .glassmorphism-02 {
-  background: rgba(36, 0, 255, 0.19);
+  background: rgba(231, 189, 255, 0.151);
   border-radius: 16px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(5.6px);
@@ -109,7 +124,7 @@ body{
   text-shadow: rgba(255, 0, 0, 0.94) 0px 0px 30px;
 }
 h1 {
-  text-shadow: rgba(234, 133, 245, 0.94) 0px 0px 30px;
+  text-shadow: rgba(127, 225, 113, 0.94) 0px 0px 30px;
 }
 .text-glow-cyan {
   text-shadow: rgba(54, 255, 178, 0.94) 0px 0px 14px;

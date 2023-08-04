@@ -6,12 +6,12 @@ import Navbar from '../components/Navbar'
 
 const Batch2025 = () => {
   return (
-    <>
+    <section className='Batch-2025Bg min-h-screen flex-col flex'>
     <Navbar/>
      <CRsection/>
      <Allstudents/>
      <Footer/> 
-    </>
+    </section>
   )
 }
 

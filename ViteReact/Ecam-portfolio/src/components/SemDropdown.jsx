@@ -1,4 +1,4 @@
-import { Dropdown } from "flowbite-react";
+import { Dropdown, Flowbite } from "flowbite-react";
 import React, { useContext, useState } from "react";
 import CourseDropdown from "./CourseDropdown";
 import AuthContext from "./store/store";
@@ -19,7 +19,7 @@ const SemDropdown = () => {
   };
   return (
     <div className="flex flex-col md:flex-row md:gap-8 gap-4">
-      <Dropdown label={selectedSemester.sem}>
+      <Dropdown label={selectedSemester.sem} className="bg-green-300 w-40">
         {semData.map((sem) => (
           <Dropdown.Item
             key={sem.id}
